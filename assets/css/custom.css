@@ -2,32 +2,32 @@
 
 /* Typography - Google Fonts loaded via extend-head */
 body {
-  font-family: "Source Sans 3", system-ui, -apple-system, sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.7;
+  font-family: "Source Sans 3", system-ui, -apple-system, sans-serif !important;
+  font-size: 1.125rem !important;
+  line-height: 1.7 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather", Georgia, serif;
-  font-weight: 700;
-  line-height: 1.3;
+  font-family: "Merriweather", Georgia, serif !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
   text-wrap: balance;
 }
 
 h1 {
-  font-size: 2.25rem;
-  letter-spacing: -0.02em;
+  font-size: 2.25rem !important;
+  letter-spacing: -0.02em !important;
 }
 
 h2 {
-  font-size: 1.75rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.75rem !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 h3 {
-  font-size: 1.35rem;
-  margin-top: 2rem;
+  font-size: 1.35rem !important;
+  margin-top: 2rem !important;
 }
 
 /* Smooth scrolling */
@@ -40,9 +40,9 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 2px solid #8b5a2b;
-  outline-offset: 2px;
-  border-radius: 4px;
+  outline: 2px solid #8b5a2b !important;
+  outline-offset: 2px !important;
+  border-radius: 4px !important;
 }
 
 /* Links */
@@ -65,31 +65,33 @@ a[href*="/tags/"] {
 }
 
 /* Amazon shortcode button */
-.amazon-link {
-  display: inline-block;
-  background-color: #8b5a2b;
-  color: #ffffff;
-  padding: 0.625rem 1.25rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-weight: 600;
+a.amazon-link {
+  display: inline-block !important;
+  background-color: #8b5a2b !important;
+  color: #ffffff !important;
+  padding: 0.625rem 1.25rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
   transition: background-color 0.2s ease, transform 0.1s ease;
-  margin: 0.75rem 0;
+  margin: 0.75rem 0 !important;
+  border: none !important;
 }
 
-.amazon-link:hover {
-  background-color: #b45309;
-  color: #ffffff;
+a.amazon-link:hover {
+  background-color: #b45309 !important;
+  color: #ffffff !important;
   transform: translateY(-1px);
+  text-decoration: none !important;
 }
 
-.amazon-link:active {
+a.amazon-link:active {
   transform: translateY(0);
 }
 
-.amazon-link:focus-visible {
-  outline: 2px solid #b45309;
-  outline-offset: 2px;
+a.amazon-link:focus-visible {
+  outline: 2px solid #b45309 !important;
+  outline-offset: 2px !important;
 }
 
 /* Hero section text */
@@ -98,21 +100,24 @@ a[href*="/tags/"] {
 }
 
 /* Blockquotes */
-.prose blockquote {
-  border-left-color: #8b5a2b;
-  background-color: #f5f0eb;
-  border-radius: 0 0.5rem 0.5rem 0;
-  padding: 0.75rem 1rem;
+.prose blockquote,
+article blockquote {
+  border-left-color: #8b5a2b !important;
+  background-color: #f5f0eb !important;
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+  padding: 0.75rem 1rem !important;
 }
 
 /* Tables */
-.prose table {
-  border-radius: 0.5rem;
-  overflow: hidden;
+.prose table,
+article table {
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
 }
 
-.prose th {
-  background-color: #f5f0eb;
+.prose th,
+article th {
+  background-color: #f5f0eb !important;
 }
 
 /* Skip link for accessibility */
@@ -125,6 +130,7 @@ a[href*="/tags/"] {
   padding: 0.5rem 1rem;
   z-index: 100;
   transition: top 0.2s ease;
+  text-decoration: none;
 }
 
 .skip-link:focus {
