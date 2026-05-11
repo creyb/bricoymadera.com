@@ -1,0 +1,19 @@
+[es]
+  locale = "es-es"
+  label = "Español"
+  direction = "ltr"
+  weight = 1
+  title = "Brico y Madera"
+
+  [es.params]
+    dateFormat = "2 January 2006"
+    mainSections = ["herramientas"]
+    description = "Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera."
+
+  [es.params.author]
+    name = "Brico y Madera"
+    headline = "Tu blog de referencia sobre bricolaje y trabajo con madera"
+    bio = "Tutoriales, guías y consejos para empezar en carpintería"
+
+    [[es.params.author.links]]
+      github = "https://github.com/creyb"

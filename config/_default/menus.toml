@@ -1,0 +1,17 @@
+[[main]]
+  identifier = "inicio"
+  name = "Inicio"
+  url = "/"
+  weight = 1
+
+[[main]]
+  identifier = "categorias"
+  name = "Categorías"
+  url = "/categories/"
+  weight = 2
+
+[[main]]
+  identifier = "sobre-mi"
+  name = "Sobre Nosotros"
+  url = "/sobre-mi/"
+  weight = 3

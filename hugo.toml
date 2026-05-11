@@ -1,109 +1,28 @@
-baseURL = 'https://bricoymadera.com/'
-locale = 'es-es'
-title = 'Brico y Madera'
-theme = 'PaperMod'
+baseURL = "https://bricoymadera.com/"
+locale = "es-es"
+title = "Brico y Madera"
+theme = "congo"
 
-# Enable robots.txt and sitemap
 enableRobotsTXT = true
 enableEmoji = true
-
-# SEO & Performance
-[pagination]
-  pagerSize = 10
 summaryLength = 30
 
-# Build future content
 buildFuture = false
 
-# Taxonomies
+[pagination]
+  pagerSize = 10
+
 [taxonomies]
-  category = 'categories'
-  tag = 'tags'
+  category = "categories"
+  tag = "tags"
 
-# Permalinks
 [permalinks]
-  herramientas = '/herramientas/:slug/'
-  sobre-mi = '/:slug/'
+  herramientas = "/herramientas/:slug/"
+  sobre-mi = "/:slug/"
 
-# Menu
-[[menu.main]]
-  identifier = 'inicio'
-  name = 'Inicio'
-  url = '/'
-  weight = 1
-
-[[menu.main]]
-  identifier = 'categorias'
-  name = 'Categorías'
-  url = '/categories/'
-  weight = 2
-
-[[menu.main]]
-  identifier = 'sobre-mi'
-  name = 'Sobre Nosotros'
-  url = '/sobre-mi/'
-  weight = 3
-
-# PaperMod theme params
-[params]
-  env = 'production'
-  defaultTheme = 'light'
-  description = 'Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera.'
-  mainSections = ['herramientas']
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
-  ShowToc = true
-  disableSpecial1stPost = false
-  disableScrollToTop = false
-  comments = false
-  hidemeta = false
-  hideSummary = false
-  showtoc = true
-  tocopen = false
-
-  # Author info
-  author = 'Brico y Madera'
-
-  # Social links (footer)
-  [[params.socialIcons]]
-    name = 'github'
-    url = 'https://github.com/creyb'
-
-  # Label text
-  [params.label]
-    text = 'Brico y Madera'
-    icon = '/favicon.ico'
-    iconHeight = 35
-
-  # Home page mode
-  [params.homeInfoParams]
-    Title = 'Brico y Madera'
-    Content = 'Tu blog de referencia sobre bricolaje y trabajo con madera. Encuentra tutoriales, guías de herramientas y consejos para tus proyectos.'
-
-  # Assets
-  [params.assets]
-    disableHLJS = true
-    disableFingerprinting = false
-
-  # Fuse search
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ['title', 'content', 'tags']
-
-# Outputs
 [outputs]
-  home = ['HTML', 'RSS', 'JSON']
+  home = ["HTML", "RSS", "JSON"]
 
-# Privacy
 [privacy]
   [privacy.disqus]
     disable = true

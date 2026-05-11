@@ -1,0 +1,17 @@
+# Generated files
+public/
+resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.crdownload
