@@ -1,0 +1,79 @@
+{{/* Hero Section */}}
+<section class="relative mb-12 overflow-hidden rounded-lg bg-neutral-200 dark:bg-neutral-700">
+  <div
+    class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style="background-image: url('/images/hero-workshop-bg.webp');"
+  ></div>
+  <div class="absolute inset-0 bg-neutral-100/90 dark:bg-neutral-800/85"></div>
+  <div class="relative z-10 px-6 py-16 text-center sm:px-14 md:px-24 lg:px-32">
+    <h1 class="mb-4 text-4xl font-bold text-neutral-800 dark:text-neutral-100 sm:text-5xl">
+      {{ .Site.Params.author.headline | default .Site.Title }}
+    </h1>
+    <p class="mx-auto max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">
+      {{ .Site.Params.author.bio | default .Site.Params.description }}
+    </p>
+  </div>
+</section>
+
+{{/* Recent Articles */}}
+{{ if .Site.Params.homepage.showRecent | default false }}
+  <section>
+    <h2 class="mb-8 text-2xl font-bold text-neutral-800 dark:text-neutral-100">
+      {{ i18n "recent_articles" | default "Artículos recientes" }}
+    </h2>
+    {{ $recentLimit := .Site.Params.homepage.recentLimit | default 5 }}
+    {{ $recent := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $recent = $recent | first $recentLimit }}
+    <div class="space-y-10">
+      {{ range $recent }}
+        <article class="flex flex-col gap-6 sm:flex-row">
+          {{ with .Params.cover }}
+            <div class="sm:w-1/3">
+              <a href="{{ .Permalink }}" class="block overflow-hidden rounded-lg">
+                <img
+                  src="{{ .image | relURL }}"
+                  alt="{{ .alt | default .Title }}"
+                  class="h-48 w-full object-cover transition-transform hover:scale-105 sm:h-full"
+                  loading="lazy"
+                  width="600"
+                  height="400"
+                />
+              </a>
+            </div>
+          {{ end }}
+          <div class="flex flex-col justify-center sm:w-2/3">
+            <header>
+              <h3 class="mb-2 text-xl font-semibold">
+                <a href="{{ .Permalink }}" class="text-neutral-800 hover:text-primary-600 dark:text-neutral-100 dark:hover:text-primary-400">
+                  {{ .Title }}
+                </a>
+              </h3>
+            </header>
+            <div class="mb-3 flex flex-wrap items-center gap-2 text-sm text-neutral-500 dark:text-neutral-400">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date | time.Format (site.Language.Params.dateFormat | default ":date_long") }}
+              </time>
+              {{ if .Params.showReadingTime | default site.Params.article.showReadingTime }}
+                <span>&middot;</span>
+                <span>{{ i18n "article.reading_time" .ReadingTime | default (printf "%d min" .ReadingTime) }}</span>
+              {{ end }}
+            </div>
+            <div class="prose prose-neutral dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300">
+              <p>{{ .Summary | plainify | htmlUnescape | truncate 160 }}</p>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              {{ range .Params.tags }}
+                <a
+                  href="{{ "tags/" | relLangURL }}{{ . | urlize }}/"
+                  class="rounded-full bg-neutral-200 px-3 py-1 text-xs text-neutral-600 hover:bg-primary-100 hover:text-primary-700 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-900 dark:hover:text-primary-300"
+                >
+                  {{ . }}
+                </a>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

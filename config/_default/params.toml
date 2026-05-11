@@ -32,7 +32,7 @@ fingerprintAlgorithm = "sha256"
   showScrollToTop = true
 
 [homepage]
-  layout = "page"
+  layout = "custom"
   showRecent = true
   recentLimit = 10
 
