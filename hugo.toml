@@ -23,7 +23,7 @@ buildFuture = false
 # Permalinks
 [permalinks]
   herramientas = '/herramientas/:slug/'
-  sobre = '/:slug/'
+  sobre-mi = '/:slug/'
 
 # Menu
 [[menu.main]]
@@ -39,9 +39,9 @@ buildFuture = false
   weight = 2
 
 [[menu.main]]
-  identifier = 'sobre'
+  identifier = 'sobre-mi'
   name = 'Sobre Nosotros'
-  url = '/sobre/'
+  url = '/sobre-mi/'
   weight = 3
 
 # PaperMod theme params
@@ -49,7 +49,7 @@ buildFuture = false
   env = 'production'
   defaultTheme = 'light'
   description = 'Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera.'
-  mainSections = ['herramientas', 'sobre']
+  mainSections = ['herramientas']
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true

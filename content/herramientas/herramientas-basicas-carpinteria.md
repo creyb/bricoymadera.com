@@ -1,6 +1,6 @@
 ---
-title: "Las 15 Herramientas Básicas de Carpintería que Necesitas para Empezar (Guía 2025)"
-date: 2025-05-11T12:00:00+02:00
+title: "Las 15 Herramientas Básicas de Carpintería que Necesitas para Empezar (Guía 2026)"
+date: 2026-05-11T12:00:00+02:00
 draft: false
 description: "Descubre las herramientas esenciales para empezar en carpintería sin gastar de más. Guía completa con herramientas manuales, eléctricas y accesorios para principiantes."
 tags: ["herramientas", "principiantes", "guía de compra"]
