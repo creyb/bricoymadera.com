@@ -31,7 +31,7 @@ El serrucho de costilla es tu herramienta de corte principal. Su hoja rígida co
 
 **Qué buscar**: Hoja de al menos 30 cm, dientes de 10-12 TPI (dientes por pulgada) para cortes limpios en madera blanda.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4trDIru)*
+{{< amazon url="https://amzn.to/4trDIru" >}}
 
 ### 2. Formón Set de 4 Piezas
 
@@ -41,7 +41,7 @@ Los formones son esenciales para tallar, hacer entallas y ajustar uniones. Un se
 
 **Qué buscar**: Hoja de acero cromo-vanadio, mango ergonómico resistente a golpes.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4dDvDLK)*
+{{< amazon url="https://amzn.to/4dDvDLK" >}}
 
 ### 3. Cepillo de Carpintero
 
@@ -51,7 +51,7 @@ El cepillo te permite alisar y nivelar superficies de madera. Es la diferencia e
 
 **Qué buscar**: Cepillo de bancada (nº 4) para empezar, con hoja de acero de buena calidad.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/3Pa6izR)*
+{{< amazon url="https://amzn.to/3Pa6izR" >}}
 
 ### 4. Gubias para Tallar
 
@@ -61,7 +61,7 @@ Si te interesa el tallado en madera, las gubias son imprescindibles. Un set bás
 
 **Qué buscar**: Acero al carbono, mango cómodo para golpes con maza.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4uFwmSr)*
+{{< amazon url="https://amzn.to/4uFwmSr" >}}
 
 ### 5. Escuadra de Carpintero
 
@@ -71,7 +71,7 @@ Parece obvio, pero una buena escuadra es la diferencia entre un proyecto que enc
 
 **Qué buscar**: Acero inoxidable, grabado láser (no pintado) para que no se borre.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/3RzPcvO)*
+{{< amazon url="https://amzn.to/3RzPcvO" >}}
 
 ### 6. Metro y Lápiz de Carpintero
 
@@ -81,7 +81,7 @@ Medir bien es el 50% del trabajo. Un metro de 5 metros y un lápiz de carpintero
 
 **Qué buscar**: Metro con cinta de nylon recubierta (no se oxida), lápiz mina HB.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4fgP5PD)*
+{{< amazon url="https://amzn.to/4fgP5PD" >}}
 
 ---
 
@@ -97,7 +97,7 @@ El taladro es probablemente la herramienta eléctrica más versátil que tendrá
 
 **Qué buscar**: Batería de litio 18V, al menos 2 baterías, mandril de 13mm.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4djJcyy)*
+{{< amazon url="https://amzn.to/4djJcyy" >}}
 
 ### 8. Sierra Caladora
 
@@ -107,7 +107,7 @@ La sierra caladora te permite hacer cortes curvos, rectos y en ángulo. Es perfe
 
 **Qué buscar**: Potencia mínima de 500W, velocidad variable, sistema de cambio rápido de hojas.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4twE0xE)*
+{{< amazon url="https://amzn.to/4twE0xE" >}}
 
 ### 9. Lijadora Orbital
 
@@ -117,7 +117,7 @@ Lijar a mano es un suplicio. Una lijadora orbital te deja un acabado uniforme en
 
 **Qué buscar**: Velocidad variable, sistema de aspiración de polvo, compatible con lijas estándar de 1/4 de hoja.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4noN0U2)*
+{{< amazon url="https://amzn.to/4noN0U2" >}}
 
 ### 10. Sierra Circular
 
@@ -127,7 +127,7 @@ Si necesitas cortar tableros o hacer cortes largos y rectos, la sierra circular 
 
 **Qué buscar**: Disco de 184mm, guía paralela incluida, potencia de al menos 1.200W.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4wpy6Rl)*
+{{< amazon url="https://amzn.to/4wpy6Rl" >}}
 
 ### 11. Router o Fresadora
 
@@ -137,7 +137,7 @@ La fresadora abre un mundo de posibilidades: molduras, ranuras, uniones y acabad
 
 **Qué buscar**: Potencia de 800-1.200W, velocidad variable, base transparente para ver el corte.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4uLjMkM)*
+{{< amazon url="https://amzn.to/4uLjMkM" >}}
 
 ---
 
@@ -153,7 +153,7 @@ Los sargentos sujetan las piezas mientras trabajas. Nunca tendrás suficientes. 
 
 **Qué buscar**: Apertura de al menos 30cm, presión firme, mordazas de nylon para no marcar la madera.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4unZWfH)*
+{{< amazon url="https://amzn.to/4unZWfH" >}}
 
 ### 13. Banco de Trabajo
 
@@ -163,7 +163,7 @@ Un buen banco de trabajo es la base de tu taller. No necesitas uno profesional c
 
 **Qué buscar**: Superficie de al menos 120x50cm, peso mínimo 25kg, prensas integradas.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4feFk4r)*
+{{< amazon url="https://amzn.to/4feFk4r" >}}
 
 ### 14. Papel de Lija (Varios Granos)
 
@@ -173,7 +173,7 @@ Necesitas lijas de diferentes granos: 80 (desbaste), 120 (medio), 220 (acabado).
 
 **Qué buscar**: Lija de óxido de aluminio (dura más), formato compatible con tu lijadora.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/48PkswY)*
+{{< amazon url="https://amzn.to/48PkswY" >}}
 
 ### 15. Gafas de Protección y Mascarilla
 
@@ -183,7 +183,7 @@ Esto no es negociable. Las virutas y el polvo de madera son peligrosos para tus 
 
 **Qué buscar**: Gafas con certificación CE, mascarilla FFP2 mínimo.
 
-[**Ver precio en Amazon →**](#) *(https://amzn.to/4uHvCMC)*
+{{< amazon url="https://amzn.to/4uHvCMC" >}}
 
 ---
 
@@ -215,7 +215,7 @@ Esto no es negociable. Las virutas y el polvo de madera son peligrosos para tus 
 
 Si prefieres comprar un pack de herramientas en lugar de ir pieza a pieza, existen kits de inicio que incluyen varias de estas herramientas. Suelen ser más económicos que comprar por separado, aunque la calidad individual de cada herramienta puede ser inferior.
 
-[**Ver kits de herramientas para carpintería en Amazon →**](#) *(https://amzn.to/4v23h3Z)*
+{{< amazon url="https://amzn.to/4v23h3Z" text="Ver kits de herramientas para carpintería en Amazon →" >}}
 
 ---
 

@@ -22,7 +22,8 @@ buildFuture = false
 
 # Permalinks
 [permalinks]
-  posts = '/:year/:month/:slug/'
+  herramientas = '/herramientas/:slug/'
+  sobre = '/:slug/'
 
 # Menu
 [[menu.main]]
@@ -48,7 +49,7 @@ buildFuture = false
   env = 'production'
   defaultTheme = 'light'
   description = 'Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera.'
-  mainSections = ['posts']
+  mainSections = ['herramientas', 'sobre']
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
