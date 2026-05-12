@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+  {{/* Hero Section with Background Image */}}
+  {{ $heroImage := resources.GetMatch "images/hero-workshop-bg.webp" }}
+  {{ with $heroImage }}
+    <section class="relative w-100 mb4" style="min-height: 400px; background-image: url('{{ .RelPermalink }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(92,58,33,0.85) 0%, rgba(139,90,43,0.75) 50%, rgba(166,124,82,0.65) 100%);"></div>
+      <div class="relative z-10 flex flex-column justify-center items-center tc-l ph3 ph5-l pv4 pv5-l" style="min-height: 400px;">
+        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title" style="text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+          {{ site.Params.author.headline | compare.Default site.Title }}
+        </h1>
+        <p class="f4 f3-l white-80 mw7 center mt3" style="text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+          {{ site.Params.author.bio | compare.Default site.Params.description }}
+        </p>
+      </div>
+    </section>
+  {{ end }}
+
+  {{- $config := site.Params.ananke.home -}}
+  {{- $text_alignment := "tc-l" -}}
+  {{- if eq $config.content_alignment "left" -}}
+    {{- $text_alignment = "tl-l" -}}
+  {{- else if eq $config.content_alignment "right" -}}
+    {{- $text_alignment = "tr-l" -}}
+  {{- end -}}
+
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 {{ $text_alignment }} center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+    {{ .Content }}
+  </article>
+
+  {{/* Recent Posts */}}
+  {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "herramientas") }}
+  {{ $show_recent_posts := site.Params.ananke.show_recent_posts }}
+  {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+
+  {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
+
+      <section class="w-100 mw8">
+        {{ range (collections.First $n_posts $section) }}
+          <div class="w-100 mb4 relative">
+            {{ .Render "summary-with-image" }}
+          </div>
+        {{ end }}
+      </section>
+
+      {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
+        <section class="w-100">
+          <h1 class="f3">{{ lang.Translate "more" }}</h1>
+          {{ range (collections.First 4 (collections.After $n_posts $section))  }}
+            <h2 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.Direction "rtl") "ml3" "mr3" }}">
+              <a href="{{ .RelPermalink }}" class="link black dim">
+                {{ .Title }}
+              </a>
+            </h2>
+          {{ end }}
+        </section>
+      {{ end }}
+
+    </div>
+  {{ end }}
+{{ end }}
