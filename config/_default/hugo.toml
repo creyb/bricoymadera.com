@@ -1,7 +1,7 @@
 baseURL = "https://bricoymadera.com/"
 locale = "es-es"
 title = "Brico y Madera"
-theme = "congo"
+theme = "ananke"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -21,7 +21,7 @@ buildFuture = false
   sobre-mi = "/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [privacy]
   [privacy.disqus]
