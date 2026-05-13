@@ -1,20 +1,17 @@
 {{ define "main" }}
 
   {{/* Hero Section with Background Image */}}
-  {{ $heroImage := resources.GetMatch "images/hero-workshop-bg.webp" }}
-  {{ with $heroImage }}
-    <section class="relative w-100 mb4" style="min-height: 400px; background-image: url('{{ .RelPermalink }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-      <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(92,58,33,0.85) 0%, rgba(139,90,43,0.75) 50%, rgba(166,124,82,0.65) 100%);"></div>
-      <div class="relative z-10 flex flex-column justify-center items-center tc-l ph3 ph5-l pv4 pv5-l" style="min-height: 400px;">
-        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title" style="text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
-          {{ site.Params.author.headline | compare.Default site.Title }}
-        </h1>
-        <p class="f4 f3-l white-80 mw7 center mt3" style="text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
-          {{ site.Params.author.bio | compare.Default site.Params.description }}
-        </p>
-      </div>
-    </section>
-  {{ end }}
+  <section class="relative w-100 mb4" style="min-height: 400px; background-image: url('/images/hero-workshop-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(92,58,33,0.7) 0%, rgba(139,90,43,0.6) 50%, rgba(166,124,82,0.5) 100%);"></div>
+    <div class="relative z-10 flex flex-column justify-center items-center tc-l ph3 ph5-l pv4 pv5-l" style="min-height: 400px;">
+      <h1 class="f2 f1-l fw2 white-90 mb0 lh-title" style="text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+        {{ with site.Params.author_headline }}{{ . }}{{ else }}{{ site.Title }}{{ end }}
+      </h1>
+      <p class="f4 f3-l white-80 mw7 center mt3" style="text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+        {{ with site.Params.author_bio }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}
+      </p>
+    </div>
+  </section>
 
   {{- $config := site.Params.ananke.home -}}
   {{- $text_alignment := "tc-l" -}}
