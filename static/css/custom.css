@@ -200,7 +200,7 @@ a, button {
   margin: 1.5rem 0;
   font-size: 0.95rem;
   box-shadow: 0 1px 6px rgba(61,43,31,0.06);
-  border: 1px solid rgba(61,43,31,0.15);
+  border: 2px solid rgba(61,43,31,0.2);
 }
 
 .nested-copy-line-height thead th {
@@ -212,11 +212,16 @@ a, button {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  border-bottom: 2px solid rgba(61,43,31,0.2);
+  border-bottom: 2px solid rgba(61,43,31,0.3);
+  border-right: 1px solid rgba(255,255,255,0.15);
+}
+
+.nested-copy-line-height thead th:last-child {
+  border-right: none;
 }
 
 .nested-copy-line-height tbody tr:nth-child(even) {
-  background-color: rgba(232,223,208,0.35);
+  background-color: rgba(232,223,208,0.4);
 }
 
 .nested-copy-line-height tbody tr:nth-child(odd) {
@@ -224,12 +229,17 @@ a, button {
 }
 
 .nested-copy-line-height tbody tr:hover {
-  background-color: rgba(232,223,208,0.6);
+  background-color: rgba(232,223,208,0.7);
 }
 
 .nested-copy-line-height td {
   padding: 0.65rem 1rem;
-  border-bottom: 1px solid rgba(61,43,31,0.12);
+  border-bottom: 1px solid rgba(61,43,31,0.18);
+  border-right: 1px solid rgba(61,43,31,0.1);
+}
+
+.nested-copy-line-height td:last-child {
+  border-right: none;
 }
 
 .nested-copy-line-height tbody tr:last-child td {
