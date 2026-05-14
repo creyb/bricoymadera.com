@@ -7,5 +7,5 @@
 
   [es.params]
     dateFormat = "2 January 2006"
-    mainSections = ["herramientas"]
+    mainSections = ["herramientas", "guias", "proyectos"]
     description = "Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera."

@@ -337,3 +337,26 @@ a, button {
     flex-wrap: wrap;
   }
 }
+
+.toc ol {
+  counter-reset: none;
+}
+
+.toc li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.toc li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #C17F24;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .toc {
+    padding: 1rem !important;
+  }
+}

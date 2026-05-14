@@ -11,10 +11,22 @@
   weight = 2
 
 [[main]]
+  identifier = "guias"
+  name = "Guías"
+  url = "/guias/"
+  weight = 3
+
+[[main]]
+  identifier = "proyectos"
+  name = "Proyectos"
+  url = "/proyectos/"
+  weight = 4
+
+[[main]]
   identifier = "sobre-mi"
   name = "Sobre Nosotros"
   url = "/sobre-mi/"
-  weight = 3
+  weight = 5
 
 [[footer]]
   identifier = "aviso-legal"

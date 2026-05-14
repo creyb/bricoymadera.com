@@ -18,6 +18,8 @@ buildFuture = false
 
 [permalinks]
   herramientas = "/herramientas/:slug/"
+  guias = "/guias/:slug/"
+  proyectos = "/proyectos/:slug/"
   sobre-mi = "/:slug/"
   legal = "/legal/:slug/"
 

@@ -1,0 +1,16 @@
+{{ if .Params.toc | default true }}
+{{ if gt (len .Headings) 1 }}
+<nav class="toc" aria-label="Tabla de contenidos" style="background: #fff; border: 1px solid rgba(61,43,31,0.1); border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; box-shadow: 0 2px 8px rgba(61,43,31,0.06);">
+  <p style="font-family: 'Lora', serif; font-size: 1rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.75rem;">Contenido del artículo</p>
+  <ol style="list-style: none; margin: 0; padding: 0; counter-reset: toc;">
+    {{- range .Headings }}
+      {{- if eq .Level 2 }}
+    <li style="margin-bottom: 0.35rem;">
+      <a href="#{{ .ID }}" style="color: #3D2B1F; text-decoration: none; font-size: 0.9rem; line-height: 1.5; display: block; padding: 0.15rem 0; transition: color 0.2s;" onmouseover="this.style.color='#C17F24'" onmouseout="this.style.color='#3D2B1F'">{{ .Text }}</a>
+    </li>
+      {{- end }}
+    {{- end }}
+  </ol>
+</nav>
+{{ end }}
+{{ end }}
