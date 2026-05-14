@@ -25,61 +25,67 @@ Estas son las herramientas que todo carpintero, sea principiante o profesional, 
 
 ### 1. Serrucho de Costilla
 
-![Serrucho de costilla con mango de plástico](/images/serrucho-costilla-carpinteria.webp)
+{{< producto img="/images/serrucho-costilla-carpinteria.webp" title="Serrucho de Costilla" >}}
 
-El serrucho de costilla es tu herramienta de corte principal. Su hoja rígida con refuerzo superior te permite hacer cortes rectos y precisos, perfectos para uniones y ensamblajes.
+- Herramienta de corte principal. Su hoja rígida con refuerzo superior permite hacer cortes rectos y precisos, perfectos para uniones y ensamblajes.
+- **Qué buscar**: Hoja de al menos 30 cm, dientes de 10-12 TPI (dientes por pulgada) para cortes limpios en madera blanda.
 
-**Qué buscar**: Hoja de al menos 30 cm, dientes de 10-12 TPI (dientes por pulgada) para cortes limpios en madera blanda.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4trDIru" >}}
 
 ### 2. Formón Set de 4 Piezas
 
-![Juego de cuatro formones de diferentes tamaños ordenados](/images/set-formones-carpinteria.webp)
+{{< producto img="/images/set-formones-carpinteria.webp" title="Formón Set de 4 Piezas" >}}
 
-Los formones son esenciales para tallar, hacer entallas y ajustar uniones. Un set de 4 piezas (6mm, 12mm, 18mm y 25mm) cubre el 90% de las tareas de un principiante.
+- Esenciales para tallar, hacer entallas y ajustar uniones. Un set de 4 piezas (6mm, 12mm, 18mm y 25mm) cubre el 90% de las tareas de un principiante.
+- **Qué buscar**: Hoja de acero cromo-vanadio, mango ergonómico resistente a golpes.
 
-**Qué buscar**: Hoja de acero cromo-vanadio, mango ergonómico resistente a golpes.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4dDvDLK" >}}
 
 ### 3. Cepillo de Carpintero
 
-![Cepillo de carpintero de madera tradicional con virutas alrededor](/images/cepillo-carpintero-madera.webp)
+{{< producto img="/images/cepillo-carpintero-madera.webp" title="Cepillo de Carpintero" >}}
 
-El cepillo te permite alisar y nivelar superficies de madera. Es la diferencia entre un acabado casero y uno profesional.
+- Te permite alisar y nivelar superficies de madera. Es la diferencia entre un acabado casero y uno profesional.
+- **Qué buscar**: Cepillo de bancada (nº 4) para empezar, con hoja de acero de buena calidad.
 
-**Qué buscar**: Cepillo de bancada (nº 4) para empezar, con hoja de acero de buena calidad.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/3Pa6izR" >}}
 
 ### 4. Gubias para Tallar
 
-![Set de gubias de tallado con diferentes perfiles de corte](/images/gubias-tallar-madera.webp)
+{{< producto img="/images/gubias-tallar-madera.webp" title="Gubias para Tallar" >}}
 
-Si te interesa el tallado en madera, las gubias son imprescindibles. Un set básico con 5-6 perfiles diferentes te permitirá hacer desde detalles decorativos hasta vaciados.
+- Imprescindibles para el tallado en madera. Un set básico con 5-6 perfiles diferentes te permitirá hacer desde detalles decorativos hasta vaciados.
+- **Qué buscar**: Acero al carbono, mango cómodo para golpes con maza.
 
-**Qué buscar**: Acero al carbono, mango cómodo para golpes con maza.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4uFwmSr" >}}
 
 ### 5. Escuadra de Carpintero
 
-![Escuadra de carpintero metálica con regla](/images/escuadra-carpintero-metal.webp)
+{{< producto img="/images/escuadra-carpintero-metal.webp" title="Escuadra de Carpintero" >}}
 
-Parece obvio, pero una buena escuadra es la diferencia entre un proyecto que encaja perfecto y uno que queda chueco. Úsala para marcar cortes a 90° y verificar ángulos.
+- Parece obvio, pero una buena escuadra es la diferencia entre un proyecto que encaja perfecto y uno que queda chueco. Úsala para marcar cortes a 90° y verificar ángulos.
+- **Qué buscar**: Acero inoxidable, grabado láser (no pintado) para que no se borre.
 
-**Qué buscar**: Acero inoxidable, grabado láser (no pintado) para que no se borre.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/3RzPcvO" >}}
 
 ### 6. Metro y Lápiz de Carpintero
 
-![Metro extensible y lápiz carpintero en una pieza](/images/metro-lapiz-carpintero.webp)
+{{< producto img="/images/metro-lapiz-carpintero.webp" title="Metro y Lápiz de Carpintero" >}}
 
-Medir bien es el 50% del trabajo. Un metro de 5 metros y un lápiz de carpintero (plano, para que no ruede) son herramientas que usarás en cada proyecto.
+- Medir bien es el 50% del trabajo. Un metro de 5 metros y un lápiz de carpintero (plano, para que no ruede) son herramientas que usarás en cada proyecto.
+- **Qué buscar**: Metro con cinta de nylon recubierta (no se oxida), lápiz mina HB.
 
-**Qué buscar**: Metro con cinta de nylon recubierta (no se oxida), lápiz mina HB.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4fgP5PD" >}}
 
@@ -91,51 +97,56 @@ Una vez tengas las manuales, estas herramientas eléctricas te ahorrarán horas 
 
 ### 7. Taladro Percutor Inalámbrico
 
-![Taladro percutor inalámbrico con batería y set de brocas](/images/taladro-percutor-inalambrico.webp)
+{{< producto img="/images/taladro-percutor-inalambrico.webp" title="Taladro Percutor Inalámbrico" >}}
 
-El taladro es probablemente la herramienta eléctrica más versátil que tendrás. Sirve para perforar, atornillar y, con los accesorios adecuados, hasta lijar.
+- Probablemente la herramienta eléctrica más versátil que tendrás. Sirve para perforar, atornillar y, con los accesorios adecuados, hasta lijar.
+- **Qué buscar**: Batería de litio 18V, al menos 2 baterías, mandril de 13mm.
 
-**Qué buscar**: Batería de litio 18V, al menos 2 baterías, mandril de 13mm.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4djJcyy" >}}
 
 ### 8. Sierra Caladora
 
-![Sierra caladora eléctrica](/images/sierra-caladora-electrica.webp)
+{{< producto img="/images/sierra-caladora-electrica.webp" title="Sierra Caladora" >}}
 
-La sierra caladora te permite hacer cortes curvos, rectos y en ángulo. Es perfecta para proyectos como estanterías, cajas o figuras decorativas.
+- Te permite hacer cortes curvos, rectos y en ángulo. Es perfecta para proyectos como estanterías, cajas o figuras decorativas.
+- **Qué buscar**: Potencia mínima de 500W, velocidad variable, sistema de cambio rápido de hojas.
 
-**Qué buscar**: Potencia mínima de 500W, velocidad variable, sistema de cambio rápido de hojas.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4twE0xE" >}}
 
 ### 9. Lijadora Orbital
 
-![Lijadora orbital con papel de lija instalado](/images/lijadora-orbital-madera.webp)
+{{< producto img="/images/lijadora-orbital-madera.webp" title="Lijadora Orbital" >}}
 
-Lijar a mano es un suplicio. Una lijadora orbital te deja un acabado uniforme en una fracción del tiempo.
+- Lijar a mano es un suplicio. Una lijadora orbital te deja un acabado uniforme en una fracción del tiempo.
+- **Qué buscar**: Velocidad variable, sistema de aspiración de polvo, compatible con lijas estándar de 1/4 de hoja.
 
-**Qué buscar**: Velocidad variable, sistema de aspiración de polvo, compatible con lijas estándar de 1/4 de hoja.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4noN0U2" >}}
 
 ### 10. Sierra Circular
 
-![Sierra circular portátil realizando corte recto en tablero](/images/sierra-circular-portatil.webp)
+{{< producto img="/images/sierra-circular-portatil.webp" title="Sierra Circular" >}}
 
-Si necesitas cortar tableros o hacer cortes largos y rectos, la sierra circular es tu mejor aliada.
+- Si necesitas cortar tableros o hacer cortes largos y rectos, la sierra circular es tu mejor aliada.
+- **Qué buscar**: Disco de 184mm, guía paralela incluida, potencia de al menos 1.200W.
 
-**Qué buscar**: Disco de 184mm, guía paralela incluida, potencia de al menos 1.200W.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4wpy6Rl" >}}
 
 ### 11. Router o Fresadora
 
-![Fresadora de mano con fresa instalada sobre pieza de madera](/images/fresadora-mano-router.webp)
+{{< producto img="/images/fresadora-mano-router.webp" title="Router o Fresadora" >}}
 
-La fresadora abre un mundo de posibilidades: molduras, ranuras, uniones y acabados decorativos.
+- La fresadora abre un mundo de posibilidades: molduras, ranuras, uniones y acabados decorativos.
+- **Qué buscar**: Potencia de 800-1.200W, velocidad variable, base transparente para ver el corte.
 
-**Qué buscar**: Potencia de 800-1.200W, velocidad variable, base transparente para ver el corte.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4uLjMkM" >}}
 
@@ -147,41 +158,45 @@ Sin estos accesorios, las herramientas anteriores no sirven de mucho.
 
 ### 12. Sargentos (Prensas)
 
-![Varios sargentos de diferentes tamaños](/images/sargentos-prensas-carpinteria.webp)
+{{< producto img="/images/sargentos-prensas-carpinteria.webp" title="Sargentos (Prensas)" >}}
 
-Los sargentos sujetan las piezas mientras trabajas. Nunca tendrás suficientes. Empieza con 4 de tamaños variados.
+- Sujetan las piezas mientras trabajas. Nunca tendrás suficientes. Empieza con 4 de tamaños variados.
+- **Qué buscar**: Apertura de al menos 30cm, presión firme, mordazas de nylon para no marcar la madera.
 
-**Qué buscar**: Apertura de al menos 30cm, presión firme, mordazas de nylon para no marcar la madera.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4unZWfH" >}}
 
 ### 13. Banco de Trabajo
 
-![Banco de trabajo robusto de carpintería con herramientas encima](/images/banco-trabajo-carpinteria.webp)
+{{< producto img="/images/banco-trabajo-carpinteria.webp" title="Banco de Trabajo" >}}
 
-Un buen banco de trabajo es la base de tu taller. No necesitas uno profesional carísimo, pero sí algo estable y resistente.
+- La base de tu taller. No necesitas uno profesional carísimo, pero sí algo estable y resistente.
+- **Qué buscar**: Superficie de al menos 120x50cm, peso mínimo 25kg, prensas integradas.
 
-**Qué buscar**: Superficie de al menos 120x50cm, peso mínimo 25kg, prensas integradas.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4feFk4r" >}}
 
 ### 14. Papel de Lija (Varios Granos)
 
-![Rollos y hojas de papel de lija de diferentes granos apilados](/images/papel-lija-granos-variados.webp)
+{{< producto img="/images/papel-lija-granos-variados.webp" title="Papel de Lija" >}}
 
-Necesitas lijas de diferentes granos: 80 (desbaste), 120 (medio), 220 (acabado). Compra en packs para ahorrar.
+- Necesitas lijas de diferentes granos: 80 (desbaste), 120 (medio), 220 (acabado). Compra en packs para ahorrar.
+- **Qué buscar**: Lija de óxido de aluminio (dura más), formato compatible con tu lijadora.
 
-**Qué buscar**: Lija de óxido de aluminio (dura más), formato compatible con tu lijadora.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/48PkswY" >}}
 
 ### 15. Gafas de Protección y Mascarilla
 
-![Gafas de protección y mascarilla antipolvo para bricolaje](/images/gafas-proteccion-mascarilla-bricolaje.webp)
+{{< producto img="/images/gafas-proteccion-mascarilla-bricolaje.webp" title="Gafas de Protección y Mascarilla" >}}
 
-Esto no es negociable. Las virutas y el polvo de madera son peligrosos para tus ojos y pulmones.
+- Esto no es negociable. Las virutas y el polvo de madera son peligrosos para tus ojos y pulmones.
+- **Qué buscar**: Gafas con certificación CE, mascarilla FFP2 mínimo.
 
-**Qué buscar**: Gafas con certificación CE, mascarilla FFP2 mínimo.
+{{< /producto >}}
 
 {{< amazon url="https://amzn.to/4uHvCMC" >}}
 
