@@ -200,7 +200,7 @@ a, button {
   margin: 1.5rem 0;
   font-size: 0.95rem;
   box-shadow: 0 1px 6px rgba(61,43,31,0.06);
-  border: 2px solid #5a4032;
+  border: 3px solid #2a1a10;
 }
 
 .nested-copy-line-height thead th {
