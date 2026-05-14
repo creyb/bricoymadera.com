@@ -1,13 +1,13 @@
 {{ define "main" }}
 
   {{/* Hero Section with Background Image */}}
-  <section class="relative w-100 mb4" style="min-height: 400px; background-image: url('/images/hero-workshop-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(92,58,33,0.7) 0%, rgba(139,90,43,0.6) 50%, rgba(166,124,82,0.5) 100%);"></div>
-    <div class="relative z-10 flex flex-column justify-center items-center tc-l ph3 ph5-l pv4 pv5-l" style="min-height: 400px;">
-      <h1 class="f2 f1-l fw2 white-90 mb0 lh-title" style="text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+  <section class="relative w-100 mb4 hero-section" style="background-image: url('/images/hero-workshop-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30,20,10,0.85) 0%, rgba(45,30,15,0.8) 50%, rgba(60,40,20,0.75) 100%);"></div>
+    <div class="relative z-10 flex flex-column justify-center items-center tc-l ph3 ph4-l" style="padding: 5rem 1rem;">
+      <h1 class="f3 f2-l fw4 mb2 lh-title hero-title" style="color: #FAF7F2; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
         {{ with site.Params.author_headline }}{{ . }}{{ else }}{{ site.Title }}{{ end }}
       </h1>
-      <p class="f4 f3-l white-80 mw7 center mt3" style="text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+      <p class="f5 f4-l fw3 mw6 center mt2 hero-desc" style="color: #E8DFD0; text-shadow: 0 1px 6px rgba(0,0,0,0.4);">
         {{ with site.Params.author_bio }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}
       </p>
     </div>
@@ -45,13 +45,13 @@
 
       {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
         <section class="w-100">
-          <h1 class="f3">{{ lang.Translate "more" }}</h1>
+          <h2 class="f3">{{ lang.Translate "more" }}</h2>
           {{ range (collections.First 4 (collections.After $n_posts $section))  }}
-            <h2 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.Direction "rtl") "ml3" "mr3" }}">
+            <h3 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.Direction "rtl") "ml3" "mr3" }}">
               <a href="{{ .RelPermalink }}" class="link black dim">
                 {{ .Title }}
               </a>
-            </h2>
+</h3>
           {{ end }}
         </section>
       {{ end }}

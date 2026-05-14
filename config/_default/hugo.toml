@@ -19,6 +19,7 @@ buildFuture = false
 [permalinks]
   herramientas = "/herramientas/:slug/"
   sobre-mi = "/:slug/"
+  legal = "/legal/:slug/"
 
 [outputs]
   home = ["HTML", "RSS"]

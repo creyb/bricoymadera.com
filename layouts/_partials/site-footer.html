@@ -1,0 +1,32 @@
+<footer class="site-footer" role="contentinfo" style="background-color: #3D2B1F; color: #E8DFD0; padding: 3rem 2rem 1.5rem; text-align: center;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem; margin-bottom: 2rem;">
+      <div style="max-width: 300px;">
+        <h3 style="color: #FAF7F2; font-family: 'Lora', serif; font-size: 1.1rem; margin-bottom: 1rem;">{{ .Site.Title }}</h3>
+        <p style="font-size: 0.9rem; line-height: 1.6; color: #E8DFD0;">
+          {{ with .Site.Params.description }}{{ . }}{{ end }}
+        </p>
+      </div>
+      <div>
+        <h3 style="color: #FAF7F2; font-family: 'Lora', serif; font-size: 1.1rem; margin-bottom: 1rem;">Enlaces</h3>
+        {{ if .Site.Menus.footer }}
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            {{ range .Site.Menus.footer }}
+              <li style="margin-bottom: 0.5rem;">
+                <a href="{{ .URL }}" style="color: #E8DFD0; text-decoration: none; font-size: 0.9rem; transition: color 0.2s;" onmouseover="this.style.color='#C17F24'" onmouseout="this.style.color='#E8DFD0'">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </div>
+    <div style="border-top: 1px solid rgba(232,223,208,0.2); padding-top: 1.5rem;">
+      <p style="font-size: 0.75rem; line-height: 1.6; color: #E8DFD0; margin-bottom: 0.75rem;">
+        <strong>Disclosure de Afiliados:</strong> {{ .Site.Params.amazon_disclosure | default "Brico y Madera participa en el Programa de Asociados de Amazon, un programa de publicidad de afiliados diseñado para proporcionar un medio para que los sitios ganen comisiones de publicidad anunciando y enlazando a Amazon.com. Al comprar a través de nuestros enlaces, nos apoyas sin coste adicional para ti." }}
+      </p>
+      <p style="font-size: 0.75rem; line-height: 1.6; color: #E8DFD0; margin-bottom: 0;">
+        &copy; {{ now.Format "2006" }} {{ .Site.Title }}. {{ with .Site.Params.copyright }}{{ . }}{{ else }}Todos los derechos reservados.{{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

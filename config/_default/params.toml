@@ -1,11 +1,14 @@
 # Ananke theme configuration
 
-description = "Blog de bricolaje y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera."
+description = "Blog de herramientas y carpintería con madera. Tutoriales, guías y herramientas para trabajar la madera."
 author = "Brico y Madera"
 
 [params]
-  author_headline = "Tu blog de referencia sobre bricolaje y trabajo con madera"
+  author_headline = "Tu blog de referencia sobre herramientas y trabajo con madera"
   author_bio = "Tutoriales, guías y consejos para empezar en carpintería"
+  custom_css = ["css/custom.css"]
+  copyright = "Todos los derechos reservados."
+  amazon_disclosure = "Brico y Madera participa en el Programa de Asociados de Amazon EU, un programa de publicidad de afiliados diseñado para proporcionar un medio para que los sitios ganen comisiones de publicidad anunciando y enlazando a Amazon.es. Los enlaces de afiliados dirigen a productos en Amazon y, si realizas una compra a través de ellos, recibiremos una pequeña comisión sin coste adicional para ti."
 
 [ananke.home]
   content_alignment = "center"

@@ -15,3 +15,21 @@
   name = "Sobre Nosotros"
   url = "/sobre-mi/"
   weight = 3
+
+[[footer]]
+  identifier = "aviso-legal"
+  name = "Aviso Legal"
+  url = "/legal/aviso-legal/"
+  weight = 1
+
+[[footer]]
+  identifier = "politica-cookies"
+  name = "Política de Cookies"
+  url = "/legal/politica-cookies/"
+  weight = 2
+
+[[footer]]
+  identifier = "politica-privacidad"
+  name = "Política de Privacidad"
+  url = "/legal/politica-privacidad/"
+  weight = 3
