@@ -114,7 +114,7 @@ a, button {
   transition: opacity 0.2s ease;
 }
 
-article img {
+.nested-copy-line-height img {
   max-width: 450px;
   height: auto;
   display: block;
