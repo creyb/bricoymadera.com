@@ -78,8 +78,9 @@
   {{- if .IsSection -}}{{- $body_classes = $body_classes | append "is-section" -}}{{- end -}}
 
   <body class="{{ delimit $body_classes " " }}" style="background-color: #FAF7F2; background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(200,185,165,0.35) 8px, rgba(200,185,165,0.35) 10px);">
-    <a href="#main-content" style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; focus:position:absolute; focus:left:0; focus:width:auto; focus:height:auto;" onfocus="this.style.position='absolute';this.style.left='0';this.style.width='auto';this.style.height='auto';this.style.overflow='visible';">Saltar al contenido principal</a>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
     {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
+    {{ partials.IncludeCached "breadcrumb.html" . }}
     <main id="main-content" class="pb7" role="main">
       {{ block "main" . }}{{ end }}
     </main>

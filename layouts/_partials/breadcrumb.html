@@ -1,0 +1,13 @@
+{{ if not .IsHome }}
+<nav aria-label="Migas de pan" style="max-width: 1200px; margin: 0 auto; padding: 1rem 2rem 0;">
+  <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; font-size: 0.85rem; color: #7a6a5a;">
+    <li><a href="{{ .Site.Home.RelPermalink }}" style="color: var(--color-amber); text-decoration: none;">Inicio</a></li>
+    {{- range .Ancestors.Reverse }}
+    <li style="color: #7a6a5a;">›</li>
+    <li><a href="{{ .RelPermalink }}" style="color: var(--color-amber); text-decoration: none;">{{ .Title }}</a></li>
+    {{- end }}
+    <li style="color: #7a6a5a;">›</li>
+    <li aria-current="page" style="color: #3D2B1F; font-weight: 500;">{{ .Title }}</li>
+  </ol>
+</nav>
+{{ end }}
