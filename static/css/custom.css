@@ -200,7 +200,7 @@ a, button {
   margin: 1.5rem 0;
   font-size: 0.95rem;
   box-shadow: 0 1px 6px rgba(61,43,31,0.06);
-  border: 2px solid rgba(61,43,31,0.2);
+  border: 2px solid #5a4032;
 }
 
 .nested-copy-line-height thead th {
@@ -212,8 +212,8 @@ a, button {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  border-bottom: 2px solid rgba(61,43,31,0.3);
-  border-right: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 2px solid #5a4032;
+  border-right: 1px solid rgba(255,255,255,0.2);
 }
 
 .nested-copy-line-height thead th:last-child {
@@ -234,8 +234,8 @@ a, button {
 
 .nested-copy-line-height td {
   padding: 0.65rem 1rem;
-  border-bottom: 1px solid rgba(61,43,31,0.18);
-  border-right: 1px solid rgba(61,43,31,0.1);
+  border-bottom: 1px solid #b5a899;
+  border-right: 1px solid #d1c7ba;
 }
 
 .nested-copy-line-height td:last-child {
