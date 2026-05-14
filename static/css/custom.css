@@ -46,10 +46,19 @@ nav {
 
 a {
   color: var(--color-amber);
+  text-decoration: none !important;
 }
 
 a:hover {
   color: var(--color-forest);
+}
+
+a.link {
+  text-decoration: none !important;
+}
+
+a.color-inherit {
+  color: inherit !important;
 }
 
 .site-logo {
