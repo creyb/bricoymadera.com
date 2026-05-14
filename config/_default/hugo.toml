@@ -28,7 +28,7 @@ buildFuture = false
   [privacy.disqus]
     disable = true
   [privacy.googleAnalytics]
-    disable = true
+    disable = false
   [privacy.instagram]
     disable = true
   [privacy.x]

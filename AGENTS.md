@@ -15,7 +15,7 @@
 | Create new content | `hugo new content <section>/<name>.md` |
 | Update theme | `git submodule update --remote --merge` |
 
-Build output should show 27 pages, 21 static files, 0 errors.
+Build output should show 27 pages, 26 static files, 0 errors.
 
 ## Stack and Architecture
 
@@ -67,7 +67,9 @@ All affiliate links use `{{< amazon url="..." text="..." >}}` (`layouts/shortcod
 
 - Required attributes: `rel="nofollow sponsored noopener"`, `target="_blank"`.
 - **Never** place Amazon links directly in Markdown without the shortcode.
-- Default text: `"Ver precio en Amazon →"`.
+- Default text: `"Ver precio"`.
+
+Product cards use `{{< producto url="..." img="..." title="..." >}}description{{< /producto >}}` (`layouts/shortcodes/producto.html`). Inline card: image left (200×200), text right, Amazon CTA button inside card.
 
 ## Images
 
@@ -75,7 +77,7 @@ All affiliate links use `{{< amazon url="..." text="..." >}}` (`layouts/shortcod
 - Reference in content: absolute path `/images/filename.webp`.
 - Names in descriptive `kebab-case`.
 - `alt` text required for every image (in Spanish, descriptive).
-- Logo: `static/images/logo.webp` (transparent background). Sized via `.site-nav .site-logo { height: 40px !important; }` in `custom.css`.
+- Logo: `static/images/logo.webp` (transparent background). Sized via `.site-nav .site-logo { height: 70px !important; }` in `custom.css`.
 
 ## Content Conventions
 

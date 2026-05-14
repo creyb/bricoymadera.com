@@ -10,7 +10,8 @@
     {{ hugo.Generator }}
     {{ $production := hugo.IsProduction }}
     {{ $public := not .Params.private }}
-    {{ if and $production $public }}
+    {{ $is404 := eq .Title "404" }}
+    {{ if and $production $public (not $is404) }}
       <meta name="robots" content="index, follow">
     {{ else }}
       <meta name="robots" content="noindex, nofollow">
@@ -78,5 +79,6 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{ end }}
+    <script src="/js/sticky-nav.js" defer></script>
   </body>
 </html>

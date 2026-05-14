@@ -9,6 +9,7 @@ author = "Brico y Madera"
   custom_css = ["css/custom.css"]
   copyright = "Todos los derechos reservados."
   favicon = "/favicon.ico"
+  googleAnalytics = "G-0MSJCJDP9R"
   amazon_disclosure = "Brico y Madera participa en el Programa de Asociados de Amazon EU, un programa de publicidad de afiliados diseñado para proporcionar un medio para que los sitios ganen comisiones de publicidad anunciando y enlazando a Amazon.es. Los enlaces de afiliados dirigen a productos en Amazon y, si realizas una compra a través de ellos, recibiremos una pequeña comisión sin coste adicional para ti."
 
 [ananke.home]
