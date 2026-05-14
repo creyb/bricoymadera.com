@@ -176,7 +176,7 @@ a, button {
   margin-top: 0.75rem;
   padding: 0.5rem 1.25rem;
   background-color: var(--color-amber);
-  color: #fff;
+  color: #fff !important;
   font-size: 0.875rem;
   font-weight: 600;
   border-radius: 6px;
@@ -186,7 +186,7 @@ a, button {
 
 .product-card-btn:hover {
   background-color: #a86b1d;
-  color: #fff;
+  color: #fff !important;
   transform: translateY(-1px);
 }
 
