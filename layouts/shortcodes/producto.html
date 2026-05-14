@@ -6,7 +6,7 @@
     <h4 class="product-card-title">{{ .Get "title" }}</h4>
     <div class="product-card-desc">{{ .Inner | markdownify }}</div>
     {{ with .Get "url" }}
-    <a href="{{ . }}" target="_blank" rel="nofollow sponsored noopener" class="product-card-btn">Ver precio en Amazon →</a>
+    <a href="{{ . }}" target="_blank" rel="nofollow sponsored noopener" class="product-card-btn">Ver precio</a>
     {{ end }}
   </div>
 </div>
