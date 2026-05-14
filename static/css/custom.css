@@ -171,6 +171,25 @@ a, button {
   margin-bottom: 0;
 }
 
+.product-card-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--color-amber);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.product-card-btn:hover {
+  background-color: #a86b1d;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 @media screen and (max-width: 600px) {
   .product-card {
     flex-direction: column;
