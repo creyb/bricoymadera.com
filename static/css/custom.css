@@ -61,6 +61,25 @@ a.color-inherit {
   color: inherit !important;
 }
 
+.amazon-link {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.6rem 1.5rem;
+  background-color: var(--color-amber);
+  color: #fff !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.amazon-link:hover {
+  background-color: #a86b1d;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
 .site-logo {
   height: auto !important;
   width: auto !important;
