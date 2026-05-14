@@ -2,6 +2,7 @@
 title: "Política de Privacidad"
 date: 2026-05-14T10:00:00+02:00
 draft: false
+private: true
 description: "Política de privacidad de Brico y Madera. Información sobre el tratamiento de datos personales según el RGPD."
 ---
 

@@ -2,6 +2,7 @@
 title: "Sobre Nosotros"
 date: 2026-05-11T12:00:00+02:00
 draft: false
+private: true
 description: "Conoce más sobre Brico y Madera"
 ---
 
