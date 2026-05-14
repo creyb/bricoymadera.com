@@ -48,13 +48,18 @@
     {{/* former internal templates */}}
     {{ partial "opengraph.html" . -}}
     {{ partial "schema.html" . -}}
+    {{ partial "schema-websearch.html" . -}}
+    {{ partial "schema-breadcrumb.html" . -}}
     {{ partial "twitter_cards.html" . -}}
 
     {{ if hugo.IsProduction }}
       {{/* former internal template */}}
       {{ partial "google_analytics.html" . }}
     {{ end }}
-	{{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
+    {{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
+    {{ if .IsHome }}
+    <link rel="preload" as="image" href="/images/hero-workshop-bg.webp">
+    {{ end }}
   </head>
 
   {{- $environment := hugo.Environment | default "production" -}}

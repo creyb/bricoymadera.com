@@ -4,8 +4,8 @@ description = "Blog de herramientas y carpintería con madera. Tutoriales, guía
 author = "Brico y Madera"
 
 [params]
-  author_headline = "Tu blog de referencia sobre herramientas y trabajo con madera"
-  author_bio = "Tutoriales, guías y consejos para empezar en carpintería"
+  author_headline = "Bricolaje y Carpintería para Principiantes"
+  author_bio = "Herramientas, guías y tutoriales de carpintería para empezar a crear con madera"
   custom_css = ["css/custom.css"]
   copyright = "Todos los derechos reservados."
   favicon = "/favicon.ico"
