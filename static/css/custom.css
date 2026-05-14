@@ -62,8 +62,9 @@ a.color-inherit {
 }
 
 .amazon-link {
-  display: inline-block;
-  margin: 1rem 0;
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto;
   padding: 0.6rem 1.5rem;
   background-color: var(--color-amber);
   color: #fff !important;
