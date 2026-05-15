@@ -1,0 +1,125 @@
+<style>
+  .cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3D2B1F;
+    color: #E8DFD0;
+    padding: 1.25rem 1.5rem;
+    z-index: 10000;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+    font-family: 'Inter', sans-serif;
+    display: none;
+  }
+  .cookie-consent-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .cookie-consent-text {
+    flex: 1;
+    min-width: 250px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .cookie-consent-text a {
+    color: #C17F24;
+    text-decoration: underline;
+  }
+  .cookie-consent-text a:hover {
+    color: #FAF7F2;
+  }
+  .cookie-consent-buttons {
+    display: flex;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+  .cookie-btn-accept {
+    background: #C17F24;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  .cookie-btn-accept:hover {
+    background: #a86b1d;
+  }
+  .cookie-btn-reject {
+    background: transparent;
+    color: #E8DFD0;
+    border: 1px solid rgba(232,223,208,0.3);
+    padding: 0.6rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  .cookie-btn-reject:hover {
+    border-color: #E8DFD0;
+    color: #fff;
+  }
+  @media screen and (max-width: 600px) {
+    .cookie-consent-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .cookie-consent-buttons {
+      width: 100%;
+    }
+    .cookie-btn-accept, .cookie-btn-reject {
+      flex: 1;
+    }
+  }
+</style>
+
+<div id="cookie-consent" class="cookie-consent">
+  <div class="cookie-consent-inner">
+    <div class="cookie-consent-text">
+      Utilizamos cookies analíticas para mejorar tu experiencia y entender cómo se utiliza el sitio.
+      Puedes aceptar todas o rechazar las no esenciales.
+      Más información en nuestra <a href="/legal/politica-cookies/">política de cookies</a>.
+    </div>
+    <div class="cookie-consent-buttons">
+      <button id="cookie-reject" class="cookie-btn-reject">Solo necesarias</button>
+      <button id="cookie-accept" class="cookie-btn-accept">Aceptar todas</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var consent = document.getElementById('cookie-consent');
+  if (!consent) return;
+
+  var accepted = localStorage.getItem('cookie-consent');
+
+  if (accepted === null) {
+    consent.style.display = 'block';
+  }
+
+  document.getElementById('cookie-accept').addEventListener('click', function() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    consent.style.display = 'none';
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    }
+  });
+
+  document.getElementById('cookie-reject').addEventListener('click', function() {
+    localStorage.setItem('cookie-consent', 'rejected');
+    consent.style.display = 'none';
+  });
+})();
+</script>

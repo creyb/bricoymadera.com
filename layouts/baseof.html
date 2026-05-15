@@ -56,6 +56,11 @@
 
     {{ if hugo.IsProduction }}
       {{/* former internal template */}}
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', { 'analytics_storage': 'denied' });
+      </script>
       {{ partial "google_analytics.html" . }}
     {{ end }}
     {{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
@@ -88,5 +93,6 @@
     </main>
     {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{ end }}
     <script src="/js/sticky-nav.js" defer></script>
+    {{ partials.Include "cookie-consent.html" . }}
   </body>
 </html>
