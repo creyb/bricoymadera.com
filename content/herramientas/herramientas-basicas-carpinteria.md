@@ -5,6 +5,7 @@ draft: false
 description: "Descubre las herramientas esenciales para empezar en carpintería sin gastar de más. Guía completa con herramientas manuales, eléctricas y accesorios para principiantes."
 tags: ["herramientas", "principiantes", "guía de compra"]
 categories: ["Herramientas"]
+featured_image: "/images/herramientas-carpinteria-principiantes-hero.webp"
 ---
 
 ![Imagen principal con conjunto de herramientas básicas de carpintería sobre mesa de trabajo](/images/herramientas-carpinteria-principiantes-hero.webp)
