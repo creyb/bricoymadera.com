@@ -8,7 +8,7 @@
 {{ else }}
   {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
   {{ if $featured_image }}
-    <header style="position: relative; background-image: url('{{ $featured_image }}'); border-radius: 8px; margin: 0 1rem; overflow: hidden; background-size: cover; background-position: center;">
+    <header style="position: relative; background-image: url('{{ $featured_image }}'); overflow: hidden; background-size: cover; background-position: center;">
       <div style="background: rgba(0,0,0,0.55);">
         {{ partials.Include "site-navigation.html" .}}
         <div style="text-align: center; padding: 4rem 1.5rem 5rem;">

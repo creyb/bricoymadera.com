@@ -18,7 +18,7 @@
   {{ end }}
 
   <article class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
-    {{ partials.IncludeCached "toc.html" . }}
+    {{ partials.Include "toc.html" . }}
     {{ .Content }}
   </article>
 {{ end }}
