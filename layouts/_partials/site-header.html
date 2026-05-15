@@ -14,11 +14,11 @@
       <div class="{{ $cover_dimming_class }}">
         {{ partials.Include "site-navigation.html" .}}
         <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-          <h1 class="f2 f-subheadline-l fw2 mb0 lh-title" style="color: #3D2B1F;">
+          <h1 class="f2 f-subheadline-l fw2 mb0 lh-title" style="color: #FAF7F2; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
             {{ .Title | compare.Default .Site.Title }}
           </h1>
           {{ with .Params.description }}
-            <h2 class="fw1 f5 f3-l measure-wide-l center mt3" style="color: #3D2B1F;">
+            <h2 class="fw1 f5 f3-l measure-wide-l center mt3" style="color: #E8DFD0; text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
               {{ . }}
             </h2>
           {{ end }}
