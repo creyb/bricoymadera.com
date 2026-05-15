@@ -337,22 +337,3 @@ a, button {
     flex-wrap: wrap;
   }
 }
-
-.featured-header-wrap {
-  border-radius: 8px;
-  margin: 0 1rem;
-  overflow: hidden;
-  max-height: 500px;
-}
-
-.featured-header-wrap header {
-  height: 100% !important;
-  min-height: unset !important;
-}
-
-@media screen and (max-width: 768px) {
-  .featured-header-wrap {
-    margin: 0 0.5rem;
-    max-height: 300px;
-  }
-}
