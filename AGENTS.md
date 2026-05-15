@@ -49,6 +49,8 @@ content/
   herramientas/          → review/guide articles (main section)
     _index.md            → section list
     <article>.md        → individual posts
+  guias/                 → complete guides (empty, no articles yet)
+  proyectos/             → tutorials (empty, no articles yet)
   sobre-mi/
     _index.md            → "About Us" page
   legal/                 → EU compliance pages
@@ -57,8 +59,8 @@ content/
     politica-privacidad.md
 ```
 
-- `mainSections = ['herramientas']` in `hugo.toml` controls what appears on the home page.
-- Permalinks: `/herramientas/:slug/` for articles, `/:slug/` for sobre-mi, `/legal/:slug/` for legal.
+- `mainSections = ['herramientas', 'guias', 'proyectos']` in `languages.toml` controls what appears on the home page.
+- Permalinks: `/herramientas/:slug/`, `/guias/:slug/`, `/proyectos/:slug/`, `/:slug/` for sobre-mi, `/legal/:slug/` for legal.
 - Taxonomies: `categories` and `tags`.
 
 ## Amazon Shortcode
@@ -82,10 +84,28 @@ Product cards use `{{< producto url="..." img="..." title="..." >}}description{{
 ## Content Conventions
 
 - **Language**: Spanish (es-es).
-- **Frontmatter**: `title`, `date`, `draft`, `description`, `tags`, `categories`.
+- **Frontmatter**: `title`, `date`, `draft`, `description`, `tags`, `categories`, `featured_image`, `toc`, `faq`.
 - **Dates**: `YYYY-MM-DDTHH:MM:SS+02:00` format. `buildFuture = false` — articles with future dates are not published.
 - **Disclosure Note**: Every article containing affiliate links must include the Amazon Associates disclosure note near the beginning. Also displayed automatically in the footer via `params.amazon_disclosure`.
 - **Tone**: Aimed at beginners, approachable, without unnecessary technical jargon.
+
+## FAQ Schema (Rich Snippets)
+
+Add `faq:` frontmatter to articles for automatic FAQPage schema generation:
+
+```yaml
+faq:
+  - q: "¿Question?"
+    a: "Answer text."
+```
+
+Visual FAQ in content uses `{{< faq q="¿Question?" >}}Answer{{< /faq >}}` shortcode (`layouts/shortcodes/faq.html`). Goldmark strips raw HTML from markdown, so raw `<details>` tags won't work.
+
+## Table of Contents
+
+TOC is auto-generated via `{{ .TableOfContents }}` and collapsible using `<details>/<summary>`. Defaults to `toc = true` in frontmatter. See `layouts/_partials/toc.html`.
+
+**Cache warning**: `toc.html` uses `Include` (not `IncludeCached`) because TOC content varies per page.
 
 ## Legal Pages
 
