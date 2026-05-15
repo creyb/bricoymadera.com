@@ -338,16 +338,21 @@ a, button {
   }
 }
 
-.featured-header {
-  border-radius: 8px !important;
-  margin: 0 1rem !important;
-  overflow: hidden !important;
+.featured-header-wrap {
+  border-radius: 8px;
+  margin: 0 1rem;
+  overflow: hidden;
   max-height: 500px;
 }
 
+.featured-header-wrap header {
+  height: 100% !important;
+  min-height: unset !important;
+}
+
 @media screen and (max-width: 768px) {
-  .featured-header {
-    margin: 0 0.5rem !important;
+  .featured-header-wrap {
+    margin: 0 0.5rem;
     max-height: 300px;
   }
 }
