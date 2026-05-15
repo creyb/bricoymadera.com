@@ -84,7 +84,7 @@
 
   {{- if .IsSection -}}{{- $body_classes = $body_classes | append "is-section" -}}{{- end -}}
 
-  <body class="{{ delimit $body_classes " " }}" style="background-color: #FAF7F2; background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(200,185,165,0.35) 8px, rgba(200,185,165,0.35) 10px);">
+  <body class="{{ delimit $body_classes " " }}" style="background-color: var(--color-cream); background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(200,185,165,0.35) 8px, rgba(200,185,165,0.35) 10px);">
     <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
     {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
     {{ partials.Include "breadcrumb.html" . }}

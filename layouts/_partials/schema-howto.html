@@ -3,10 +3,10 @@
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "{{ .Title }}",
-  "description": "{{ .Description }}",
-  "image": "{{ with .Params.image }}{{ . }}{{ else }}{{ .Site.BaseURL }}images/hero-workshop-bg.webp{{ end }}",
-  "totalTime": "{{ .Params.totalTime | default "PT30M" }}",
+  "name": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "image": {{ with .Params.image }}{{ . | jsonify }}{{ else }}{{ printf "%simages/hero-workshop-bg.webp" .Site.BaseURL | jsonify }}{{ end }},
+  "totalTime": {{ .Params.totalTime | default "PT30M" | jsonify }},
   "step": [
     {{- $steps := .Params.howto }}
     {{- range $i, $step := $steps }}
@@ -14,8 +14,8 @@
     {
       "@type": "HowToStep",
       "position": {{ add $i 1 }},
-      "name": "{{ $step.name }}",
-      "text": "{{ $step.text }}"
+      "name": {{ $step.name | jsonify }},
+      "text": {{ $step.text | jsonify }}
     }
     {{- end }}
   ]

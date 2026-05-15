@@ -27,15 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var toggle = nav.querySelector('.menu-toggle');
   var menu = nav.querySelector('.nav-menu');
-  var openLines = nav.querySelectorAll('.menu-open');
-  var closeLines = nav.querySelectorAll('.menu-close');
   if (toggle && menu) {
     toggle.addEventListener('click', function() {
       var expanded = toggle.getAttribute('aria-expanded') === 'true';
       toggle.setAttribute('aria-expanded', !expanded);
       menu.classList.toggle('active');
-      openLines.forEach(function(l) { l.style.display = expanded ? 'none' : 'none'; });
-      closeLines.forEach(function(l) { l.style.display = expanded ? 'none' : 'block'; });
       var lines = toggle.querySelectorAll('line');
       if (!expanded) {
         lines[0].style.display = 'none';

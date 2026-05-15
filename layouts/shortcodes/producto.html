@@ -1,22 +1,6 @@
-{{- $img := resources.Get (.Get "img") -}}
 <div class="product-card">
   <div class="product-card-img">
-    {{- if $img }}
-    <img
-      src="{{ $img.RelPermalink }}"
-      alt="{{ .Get "title" }}"
-      width="200"
-      height="200"
-      loading="lazy"
-      decoding="async"
-      {{- if gt $img.Width 400 }}
-      srcset="{{ $img.RelPermalink }} 200w"
-      sizes="(max-width: 600px) 160px, 200px"
-      {{- end }}
-    >
-    {{- else }}
     <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}" width="200" height="200" loading="lazy" decoding="async">
-    {{- end }}
   </div>
   <div class="product-card-body">
     <h4 class="product-card-title">{{ .Get "title" }}</h4>
