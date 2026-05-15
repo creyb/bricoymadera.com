@@ -3,9 +3,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ .Site.Title | jsonify }},
-  "url": {{ .Site.BaseURL | jsonify }},
-  "description": {{ .Site.Params.description | jsonify }}
+  "name": "{{ .Site.Title | transform.HTMLEscape }}",
+  "url": "{{ .Site.BaseURL | transform.HTMLEscape }}",
+  "description": "{{ .Site.Params.description | transform.HTMLEscape }}"
 }
 </script>
 {{ end }}
