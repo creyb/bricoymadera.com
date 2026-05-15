@@ -13,17 +13,51 @@
     </div>
   </section>
 
-  {{- $config := site.Params.ananke.home -}}
-  {{- $text_alignment := "tc-l" -}}
-  {{- if eq $config.content_alignment "left" -}}
-    {{- $text_alignment = "tl-l" -}}
-  {{- else if eq $config.content_alignment "right" -}}
-    {{- $text_alignment = "tr-l" -}}
-  {{- end -}}
+  {{/* ¿Qué encontrarás aquí? */}}
+  <section style="max-width: 1000px; margin: 0 auto; padding: 3rem 1.5rem;">
+    <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 600; color: #3D2B1F; text-align: center; margin: 0 0 2rem;">¿Qué encontrarás aquí?</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center;">
+      <div style="padding: 1.5rem;">
+        <div style="font-size: 2rem; margin-bottom: 0.75rem;">🔧</div>
+        <h3 style="font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Guías prácticas</h3>
+        <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.6; margin: 0;">Comparativas honestas y consejos para elegir las herramientas adecuadas sin gastar de más.</p>
+      </div>
+      <div style="padding: 1.5rem;">
+        <div style="font-size: 2rem; margin-bottom: 0.75rem;">🪵</div>
+        <h3 style="font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Tutoriales paso a paso</h3>
+        <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.6; margin: 0;">Proyectos de carpintería para principiantes, desde una estantería simple hasta una mesa de trabajo.</p>
+      </div>
+      <div style="padding: 1.5rem;">
+        <div style="font-size: 2rem; margin-bottom: 0.75rem;">✅</div>
+        <h3 style="font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Recomendaciones honestas</h3>
+        <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.6; margin: 0;">Solo recomendamos lo que realmente funciona. Sin patrocinios que condicionen nuestra opinión.</p>
+      </div>
+    </div>
+  </section>
 
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 {{ $text_alignment }} center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
-    {{ .Content }}
-  </article>
+  {{/* Categorías */}}
+  <section style="background: #fff; padding: 3rem 1.5rem;">
+    <div style="max-width: 1000px; margin: 0 auto;">
+      <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 600; color: #3D2B1F; text-align: center; margin: 0 0 2rem;">Explora por categorías</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <a href="/herramientas/" style="display: block; padding: 1.75rem; background: #FAF7F2; border: 1px solid rgba(61,43,31,0.08); border-radius: 8px; text-decoration: none; transition: box-shadow 0.2s, transform 0.1s; box-shadow: 0 2px 8px rgba(61,43,31,0.06);" onmouseover="this.style.boxShadow='0 4px 16px rgba(61,43,31,0.12)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 2px 8px rgba(61,43,31,0.06)';this.style.transform='translateY(0)'">
+          <div style="font-size: 1.75rem; margin-bottom: 0.75rem;">🔧</div>
+          <h3 style="font-family: 'Lora', serif; font-size: 1.15rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Herramientas</h3>
+          <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.5; margin: 0;">Guías y reviews de herramientas manuales y eléctricas para carpintería.</p>
+        </a>
+        <a href="/guias/" style="display: block; padding: 1.75rem; background: #FAF7F2; border: 1px solid rgba(61,43,31,0.08); border-radius: 8px; text-decoration: none; transition: box-shadow 0.2s, transform 0.1s; box-shadow: 0 2px 8px rgba(61,43,31,0.06);" onmouseover="this.style.boxShadow='0 4px 16px rgba(61,43,31,0.12)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 2px 8px rgba(61,43,31,0.06)';this.style.transform='translateY(0)'">
+          <div style="font-size: 1.75rem; margin-bottom: 0.75rem;">📖</div>
+          <h3 style="font-family: 'Lora', serif; font-size: 1.15rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Guías</h3>
+          <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.5; margin: 0;">Guías completas para elegir materiales, equipos y equipamiento.</p>
+        </a>
+        <a href="/proyectos/" style="display: block; padding: 1.75rem; background: #FAF7F2; border: 1px solid rgba(61,43,31,0.08); border-radius: 8px; text-decoration: none; transition: box-shadow 0.2s, transform 0.1s; box-shadow: 0 2px 8px rgba(61,43,31,0.06);" onmouseover="this.style.boxShadow='0 4px 16px rgba(61,43,31,0.12)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 2px 8px rgba(61,43,31,0.06)';this.style.transform='translateY(0)'">
+          <div style="font-size: 1.75rem; margin-bottom: 0.75rem;">🛠️</div>
+          <h3 style="font-family: 'Lora', serif; font-size: 1.15rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">Proyectos</h3>
+          <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.5; margin: 0;">Tutoriales paso a paso para crear proyectos de carpintería con madera.</p>
+        </a>
+      </div>
+    </div>
+  </section>
 
   {{/* Recent Posts */}}
   {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "herramientas") }}
@@ -32,30 +66,28 @@
   {{ $section_count := len $section }}
 
   {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
+    <div style="max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem;">
+      <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 600; color: #3D2B1F; text-align: center; margin: 0 0 2rem;">Últimos artículos</h2>
       {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
-
-      <section class="w-100 mw8">
+      <section style="width: 100%;">
         {{ range (collections.First $n_posts $section) }}
-          <div class="w-100 mb4 relative">
+          <div style="width: 100%; margin-bottom: 2rem;">
             {{ .Render "summary-with-image" }}
           </div>
         {{ end }}
       </section>
-
-      {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
-        <section class="w-100">
-          <h2 class="f3">{{ lang.Translate "more" }}</h2>
-          {{ range (collections.First 4 (collections.After $n_posts $section))  }}
-            <h3 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.Direction "rtl") "ml3" "mr3" }}">
-              <a href="{{ .RelPermalink }}" class="link black dim">
-                {{ .Title }}
-              </a>
-</h3>
-          {{ end }}
-        </section>
-      {{ end }}
-
     </div>
   {{ end }}
+
+  {{/* Sobre nosotros */}}
+  <section style="background: #fff; padding: 3rem 1.5rem;">
+    <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+      <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 600; color: #3D2B1F; margin: 0 0 1rem;">Sobre Brico y Madera</h2>
+      <p style="font-size: 1rem; color: #5a4a3a; line-height: 1.7; margin: 0 0 1.5rem;">
+        Somos un blog creado para ayudar a personas que quieren empezar en el mundo de la carpintería y el bricolaje con madera. Aquí encontrarás guías honestas, tutoriales claros y recomendaciones sin rodeos.
+      </p>
+      <a href="/sobre-mi/" style="display: inline-block; padding: 0.7rem 1.75rem; background: #C17F24; color: #fff; font-size: 0.9rem; font-weight: 600; border-radius: 6px; text-decoration: none; transition: background-color 0.2s;" onmouseover="this.style.background='#a86b1d'" onmouseout="this.style.background='#C17F24'">Sobre nosotros</a>
+    </div>
+  </section>
+
 {{ end }}
