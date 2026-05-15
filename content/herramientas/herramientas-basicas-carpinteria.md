@@ -6,6 +6,17 @@ description: "Descubre las herramientas esenciales para empezar en carpintería 
 tags: ["herramientas", "principiantes", "guía de compra"]
 categories: ["Herramientas"]
 featured_image: "/images/herramientas-carpinteria-principiantes-hero.webp"
+faq:
+  - q: "¿Cuánto dinero necesito para empezar en carpintería?"
+    a: "Con entre 150€ y 300€ puedes comprar las herramientas básicas de prioridad alta (serrucho, formones, escuadra, metro, taladro inalámbrico, sargentos y banco de trabajo). Las herramientas eléctricas adicionales las puedes ir añadiendo poco a poco."
+  - q: "¿Qué herramienta eléctrica debo comprar primero?"
+    a: "El taladro percutor inalámbrico es la inversión más inteligente. Es la herramienta más versátil: sirve para perforar, atornillar y, con accesorios, hasta lijar. Es la primera herramienta eléctrica que deberías tener."
+  - q: "¿Necesito un taller grande para empezar?"
+    a: "No. La mayoría de herramientas básicas caben en un espacio reducido. Puedes empezar con un banco de trabajo pequeño (120x50cm) en un garaje, trastero o incluso una habitación. Lo importante es tener espacio para trabajar con comodidad."
+  - q: "¿Cuáles son las 5 herramientas imprescindibles para empezar?"
+    a: "Si solo puedes comprar cinco, empieza con: serrucho de costilla, formones, escuadra, metro y lápiz, y un taladro percutor inalámbrico. Con estas cubres el 80% de las tareas básicas de carpintería."
+  - q: "¿Merece la pena comprar kits de herramientas?"
+    a: "Los kits pueden ser una buena opción para empezar porque son más económicos que comprar por separado. Sin embargo, la calidad individual de cada herramienta suele ser inferior. Mi recomendación: compra las herramientas clave por separado y completa con un kit de accesorios."
 ---
 
 ![Imagen principal con conjunto de herramientas básicas de carpintería sobre mesa de trabajo](/images/herramientas-carpinteria-principiantes-hero.webp)

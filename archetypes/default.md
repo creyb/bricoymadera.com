@@ -7,4 +7,8 @@ tags = []
 categories = []
 featured_image = ""
 toc = true
+
+[[faq]]
+  q = ""
+  a = ""
 +++
