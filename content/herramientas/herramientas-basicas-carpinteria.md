@@ -216,6 +216,45 @@ Si prefieres comprar un pack de herramientas en lugar de ir pieza a pieza, exist
 
 ---
 
+## Preguntas Frecuentes
+
+<details style="border: 1px solid rgba(61,43,31,0.1); border-radius: 8px; margin-bottom: 0.75rem; background: #fff;">
+<summary style="padding: 0.75rem 1rem; cursor: pointer; font-weight: 600; color: #3D2B1F; font-size: 0.95rem;">¿Cuánto dinero necesito para empezar en carpintería?</summary>
+<div style="padding: 0 1rem 0.75rem; color: #5a4a3a; font-size: 0.9rem; line-height: 1.6;">
+Con entre 150€ y 300€ puedes comprar las herramientas básicas de prioridad alta (serrucho, formones, escuadra, metro, taladro inalámbrico, sargentos y banco de trabajo). Las herramientas eléctricas adicionales las puedes ir añadiendo poco a poco.
+</div>
+</details>
+
+<details style="border: 1px solid rgba(61,43,31,0.1); border-radius: 8px; margin-bottom: 0.75rem; background: #fff;">
+<summary style="padding: 0.75rem 1rem; cursor: pointer; font-weight: 600; color: #3D2B1F; font-size: 0.95rem;">¿Qué herramienta eléctrica debo comprar primero?</summary>
+<div style="padding: 0 1rem 0.75rem; color: #5a4a3a; font-size: 0.9rem; line-height: 1.6;">
+El taladro percutor inalámbrico es la inversión más inteligente. Es la herramienta más versátil: sirve para perforar, atornillar y, con accesorios, hasta lijar. Es la primera herramienta eléctrica que deberías tener.
+</div>
+</details>
+
+<details style="border: 1px solid rgba(61,43,31,0.1); border-radius: 8px; margin-bottom: 0.75rem; background: #fff;">
+<summary style="padding: 0.75rem 1rem; cursor: pointer; font-weight: 600; color: #3D2B1F; font-size: 0.95rem;">¿Necesito un taller grande para empezar?</summary>
+<div style="padding: 0 1rem 0.75rem; color: #5a4a3a; font-size: 0.9rem; line-height: 1.6;">
+No. La mayoría de herramientas básicas caben en un espacio reducido. Puedes empezar con un banco de trabajo pequeño (120x50cm) en un garaje, trastero o incluso una habitación. Lo importante es tener espacio para trabajar con comodidad.
+</div>
+</details>
+
+<details style="border: 1px solid rgba(61,43,31,0.1); border-radius: 8px; margin-bottom: 0.75rem; background: #fff;">
+<summary style="padding: 0.75rem 1rem; cursor: pointer; font-weight: 600; color: #3D2B1F; font-size: 0.95rem;">¿Cuáles son las 5 herramientas imprescindibles para empezar?</summary>
+<div style="padding: 0 1rem 0.75rem; color: #5a4a3a; font-size: 0.9rem; line-height: 1.6;">
+Si solo puedes comprar cinco, empieza con: serrucho de costilla, formones, escuadra, metro y lápiz, y un taladro percutor inalámbrico. Con estas cubres el 80% de las tareas básicas de carpintería.
+</div>
+</details>
+
+<details style="border: 1px solid rgba(61,43,31,0.1); border-radius: 8px; margin-bottom: 0.75rem; background: #fff;">
+<summary style="padding: 0.75rem 1rem; cursor: pointer; font-weight: 600; color: #3D2B1F; font-size: 0.95rem;">¿Merece la pena comprar kits de herramientas?</summary>
+<div style="padding: 0 1rem 0.75rem; color: #5a4a3a; font-size: 0.9rem; line-height: 1.6;">
+Los kits pueden ser una buena opción para empezar porque son más económicos que comprar por separado. Sin embargo, la calidad individual de cada herramienta suele ser inferior. Mi recomendación: compra las herramientas clave por separado y completa con un kit de accesorios.
+</div>
+</details>
+
+---
+
 ## Conclusión
 
 No necesitas gastar una fortuna para empezar en carpintería. Con estas 15 herramientas básicas puedes abordar la mayoría de proyectos para principiantes: estanterías, mesas pequeñas, cajas decorativas, tablas de cortar y mucho más.
