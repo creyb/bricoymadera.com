@@ -7,14 +7,14 @@
   </header>
 {{ else if .IsSection }}
   <header style="position: relative; background-image: url('/images/hero-workshop-bg.webp'); overflow: hidden; background-size: cover; background-position: center;">
-    <div style="background: linear-gradient(135deg, rgba(30,20,10,0.85) 0%, rgba(45,30,15,0.8) 50%, rgba(60,40,20,0.75) 100%);">
+    <div style="background: linear-gradient(135deg, rgba(30,20,10,0.85) 0%, rgba(45,30,15,0.8) 50%, rgba(60,40,20,0.75) 100%); min-height: 320px; display: flex; flex-direction: column; justify-content: center;">
       {{ partials.Include "site-navigation.html" .}}
-      <div style="text-align: center; padding: 4rem 1.5rem 5rem;">
+      <div style="text-align: center; padding: 2rem 1.5rem 3rem; max-width: 700px; margin: 0 auto;">
         <h1 style="font-family: 'Lora', serif; font-size: 1.75rem; font-weight: 500; color: #FAF7F2; margin: 0 0 1rem; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
           {{ .Title | compare.Default .Site.Title }}
         </h1>
         {{ with .Params.description }}
-          <p style="font-size: 1rem; color: #E8DFD0; max-width: 600px; margin: 0 auto; text-shadow: 0 1px 4px rgba(0,0,0,0.4); line-height: 1.6;">
+          <p style="font-size: 1rem; color: #E8DFD0; text-shadow: 0 1px 4px rgba(0,0,0,0.4); line-height: 1.6;">
             {{ . }}
           </p>
         {{ end }}
