@@ -5,6 +5,7 @@
 1. **Verify before continuing**: After modifying any file, use `read` to check it before proceeding. Never assume it was written correctly.
 2. **Check available skills**: Before writing articles, copy, or analyses, check if there is an applicable skill (`copywriting`, `keyword-research`, etc.) and use it. Also, if there is a skill for editing or designing web pages, use it whenever requested or when we want to audit the website's design.
 3. **Check for clean code after editing**: After each file modification, verify that there is no duplicate code, misplaced code, or unnecessary elements. Remove redundant blocks, unnecessary CSS classes, unused variables, or obsolete configurations.
+4. **Search Amazon before writing product articles**: When writing articles that include Amazon products (reviews, comparisons, "best X" lists), ALWAYS search Amazon.es first using `webfetch` to verify the products exist, get real prices, ratings, and ASINs. Never invent product names, models, or prices. Use the `{{< producto url="https://www.amazon.es/dp/ASIN" >}}` shortcode with real ASINs.
 
 ## Commands
 
