@@ -178,8 +178,8 @@ a, button {
 }
 
 .product-card-img img {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   object-fit: contain;
   border-radius: 8px;
   background: #f9f9f9;
@@ -209,6 +209,13 @@ a, button {
 
 .product-card-desc p:last-child {
   margin-bottom: 0;
+}
+
+.product-card-desc ul,
+.product-card-desc ol {
+  clear: both;
+  margin: 0.5rem 0 0.75rem;
+  padding-left: 1.25rem;
 }
 
 .product-card-btn {
