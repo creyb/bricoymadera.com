@@ -18,7 +18,7 @@ buildFuture = false
   herramientas = "/herramientas/:slug/"
   guias = "/guias/:slug/"
   proyectos = "/proyectos/:slug/"
-  sobre-mi = "/:slug/"
+  sobre-nosotros = "/:slug/"
   legal = "/legal/:slug/"
 
 [outputs]

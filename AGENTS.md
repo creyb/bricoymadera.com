@@ -51,7 +51,7 @@ content/
     <article>.md        → individual posts
   guias/                 → complete guides (empty, no articles yet)
   proyectos/             → tutorials (empty, no articles yet)
-  sobre-mi/
+  sobre-nosotros/
     _index.md            → "About Us" page
   legal/                 → EU compliance pages
     aviso-legal.md
@@ -60,7 +60,7 @@ content/
 ```
 
 - `mainSections = ['herramientas', 'guias', 'proyectos']` in `languages.toml` controls what appears on the home page.
-- Permalinks: `/herramientas/:slug/`, `/guias/:slug/`, `/proyectos/:slug/`, `/:slug/` for sobre-mi, `/legal/:slug/` for legal.
+- Permalinks: `/herramientas/:slug/`, `/guias/:slug/`, `/proyectos/:slug/`, `/:slug/` for sobre-nosotros, `/legal/:slug/` for legal.
 - Taxonomies: `categories` and `tags`.
 
 ## Amazon Shortcode

@@ -23,9 +23,9 @@
   weight = 4
 
 [[main]]
-  identifier = "sobre-mi"
+  identifier = "sobre-nosotros"
   name = "Sobre Nosotros"
-  url = "/sobre-mi/"
+  url = "/sobre-nosotros/"
   weight = 5
 
 [[footer]]
