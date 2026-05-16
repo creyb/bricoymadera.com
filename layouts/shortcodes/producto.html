@@ -1,5 +1,5 @@
 <div class="product-card">
-  {{- $parts := split .Inner "<!--more-->" -}}
+  {{- $parts := split .Inner "---split---" -}}
   <div class="product-card-img">
     <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}" loading="lazy" decoding="async">
   </div>
