@@ -1,15 +1,4 @@
 {{ define "main" }}
-  <section class="section-hero" style="background: linear-gradient(135deg, #3D2B1F 0%, #2D4739 100%); padding: 4rem 1.5rem 3.5rem; text-align: center;">
-    <h1 style="font-family: 'Lora', serif; font-size: 2rem; font-weight: 500; color: #FAF7F2; margin: 0 0 0.75rem; text-shadow: 0 2px 8px rgba(0,0,0,0.3);">
-      {{ .Title }}
-    </h1>
-    {{ with .Params.description }}
-      <p style="font-size: 1rem; color: #E8DFD0; max-width: 600px; margin: 0 auto; line-height: 1.6; text-shadow: 0 1px 4px rgba(0,0,0,0.2);">
-        {{ . }}
-      </p>
-    {{ end }}
-  </section>
-
   <section style="max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem 3rem;">
     {{ $pages := .Pages }}
     {{ if $pages }}
