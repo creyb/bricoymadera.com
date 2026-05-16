@@ -1,12 +1,16 @@
 <div class="product-card">
+  {{- $parts := split .Inner "<!--more-->" -}}
   <div class="product-card-img">
     <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}" loading="lazy" decoding="async">
   </div>
   <div class="product-card-body">
     <h4 class="product-card-title">{{ .Get "title" }}</h4>
-    <div class="product-card-desc">{{ .Inner | markdownify }}</div>
+    <div class="product-card-desc">{{ index $parts 0 | markdownify }}</div>
     {{ with .Get "url" }}
     <a href="{{ . }}" target="_blank" rel="nofollow sponsored noopener" class="product-card-btn">Ver precio</a>
     {{ end }}
   </div>
+  {{- if gt (len $parts) 1 }}
+  <div class="product-card-details">{{ index $parts 1 | markdownify }}</div>
+  {{- end }}
 </div>

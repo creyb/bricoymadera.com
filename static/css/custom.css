@@ -211,13 +211,6 @@ a, button {
   margin-bottom: 0;
 }
 
-.product-card-desc ul,
-.product-card-desc ol {
-  clear: both;
-  margin: 0.5rem 0 0.75rem;
-  padding-left: 1.25rem;
-}
-
 .product-card-btn {
   display: block;
   clear: both;
@@ -237,6 +230,27 @@ a, button {
   background-color: #a86b1d;
   color: #fff !important;
   transform: translateY(-1px);
+}
+
+.product-card-details {
+  clear: both;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(61,43,31,0.06);
+  margin-top: 0.5rem;
+}
+
+.product-card-details p {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.product-card-details ul,
+.product-card-details ol {
+  margin: 0.25rem 0 0.75rem;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .nested-copy-line-height table {

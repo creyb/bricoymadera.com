@@ -49,7 +49,7 @@ He revisado los taladros inalámbricos más vendidos en Amazon España para hace
 {{< producto img="/images/taladro-dca-adjz2035.webp" title="DCA ADJZ2035 Taladro Inalámbrico 20V" url="https://amzn.to/4wy9hD1" >}}
 
 Si nunca has tenido un taladro inalámbrico y quieres empezar sin gastar mucho, este es tu modelo. El DCA ADJZ2035 cuesta alrededor de 40€ y ofrece más de lo que esperas por ese precio.
-
+<!--more-->
 **Lo que me gusta:**
 - 20V de potencia real con batería de 2.0Ah incluida
 - 40Nm de par, suficiente para madera y metal
@@ -74,7 +74,7 @@ Si nunca has tenido un taladro inalámbrico y quieres empezar sin gastar mucho, 
 {{< producto img="/images/taladro-cecotec-powerforce-1620.webp" title="Cecotec PowerForce 1620 Easy Hand" url="https://amzn.to/497mmcm" >}}
 
 Cecotec es una marca española que ha ganado terreno en bricolaje doméstico. Este modelo destaca por incluir **dos baterías** a un precio muy contenido (~40€), algo rareza en esta gama.
-
+<!--more-->
 **Lo que me gusta:**
 - Dos baterías de 2.0Ah incluidas (trabajas mientras cargas la otra)
 - 38Nm de par, suficiente para la mayoría de tareas domésticas
@@ -98,7 +98,7 @@ Cecotec es una marca española que ha ganado terreno en bricolaje doméstico. Es
 {{< producto img="/images/taladro-blackdecker-bcd702c1.webp" title="BLACK+DECKER BCD702C1 Taladro 20V" url="https://amzn.to/3Red5Jo" >}}
 
 BLACK+DECKER es una marca clásica en bricolaje casero. Este modelo combina un precio contenido (~58€) con la fiabilidad de una marca que lleva décadas en el mercado. Con casi 3.000 valoraciones y 4.6★, es de los más vendidos.
-
+<!--more-->
 **Lo que me gusta:**
 - Marca reconocida con garantía fiable
 - 20V de potencia, suficiente para todo tipo de trabajos
@@ -122,7 +122,7 @@ BLACK+DECKER es una marca clásica en bricolaje casero. Este modelo combina un p
 {{< producto img="/images/taladro-hychika-18v-percutor.webp" title="HYCHIKA 18V Taladro Percutor" url="https://amzn.to/3PsrWPJ" >}}
 
 Este es el que yo recomendaría si quieres un taladro que lo haga todo sin complicarte. Por unos 60€ obtienes un taladro 18V con función percutor, 45Nm de par y 55 accesorios incluidos. Es de los más vendidos con 1.800+ valoraciones.
-
+<!--more-->
 **Lo que me gusta:**
 - Función percutor incluida (taladra ladrillo y hormigón ligero)
 - 45Nm de par, potente para su precio
@@ -147,7 +147,7 @@ Este es el que yo recomendaría si quieres un taladro que lo haga todo sin compl
 {{< producto img="/images/taladro-dca-adjz2055i.webp" title="DCA ADJZ2055i Taladro Brushless 20V" url="https://amzn.to/43cy4Pr" >}}
 
 Si puedes estirar un poco el presupuesto (~61€), este DCA con motor brushless es el mejor de la lista en prestaciones. El motor sin escobillas significa más durabilidad, más eficiencia y menos mantenimiento.
-
+<!--more-->
 **Lo que me gusta:**
 - Motor brushless: dura más, consume menos, no genera chispas
 - 55Nm de par, el más potente de la lista
