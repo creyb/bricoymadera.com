@@ -318,6 +318,18 @@ a, button {
     width: 180px;
     height: 180px;
   }
+  .nested-copy-line-height table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nested-copy-line-height table thead,
+  .nested-copy-line-height table tbody,
+  .nested-copy-line-height table tr,
+  .nested-copy-line-height table th,
+  .nested-copy-line-height table td {
+    display: revert;
+  }
 }
 
 @media screen and (max-width: 768px) {
