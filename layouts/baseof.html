@@ -11,7 +11,8 @@
     {{ $production := hugo.IsProduction }}
     {{ $public := not .Params.private }}
     {{ $is404 := eq .Title "404" }}
-    {{ if and $production $public (not $is404) }}
+    {{ $isTaxonomyList := eq .Kind "taxonomy" }}
+    {{ if and $production $public (not $is404) (not $isTaxonomyList) }}
       <meta name="robots" content="index, follow">
     {{ else }}
       <meta name="robots" content="noindex, nofollow">

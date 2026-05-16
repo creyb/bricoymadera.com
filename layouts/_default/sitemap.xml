@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {{ range .Pages }}
+  {{- if ne .Kind "taxonomy" }}
   <url>
     <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
     <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>{{ end }}
@@ -19,5 +20,6 @@
     <priority>0.5</priority>
     {{- end }}
   </url>
+  {{- end }}
   {{ end }}
 </urlset>
