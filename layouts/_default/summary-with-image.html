@@ -1,26 +1,24 @@
 {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l dark-gray no-underline">
-    <div class="flex-column flex-row-ns flex">
-      {{ if $featured_image }}
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="{{.RelPermalink}}" class="db grow">
-            <img src="{{ $featured_image }}" class="img" alt="{{ .Title }}" width="400" height="300" loading="lazy" style="border-radius: 8px;">
-          </a>
-        </div>
-      {{ end }}
-      <div class="w-100{{ if $featured_image }} w-60-ns pl3-ns{{ end }}">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="{{.RelPermalink}}" class="color-inherit dim link">{{ .Title }}</a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          {{ .Description | default (.Summary | plainify | truncate 200) }}
-        </div>
-        {{ with .Params.author | compare.Default .Site.Params.author }}
-          <p class="f6 lh-copy mv0">By {{ . }}</p>
-        {{- end -}}
-        <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }}</a>
+<article style="background: #fff; border: 1px solid rgba(61,43,31,0.08); border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(61,43,31,0.06); transition: box-shadow 0.2s, transform 0.1s;" onmouseover="this.style.boxShadow='0 4px 16px rgba(61,43,31,0.12)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 2px 8px rgba(61,43,31,0.06)';this.style.transform='translateY(0)'">
+  {{ if $featured_image }}
+    <a href="{{ .RelPermalink }}" style="display: block; text-decoration: none;">
+      <img src="{{ $featured_image }}" alt="{{ .Title }}" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+    </a>
+  {{ end }}
+  <div style="padding: 1.5rem;">
+    {{ with .Params.tags }}
+      <div style="margin-bottom: 0.5rem;">
+        {{ range . }}
+          <span style="display: inline-block; font-size: 0.7rem; font-weight: 600; color: #C17F24; background: rgba(193,127,36,0.1); padding: 0.2rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em; margin-right: 0.35rem;">{{ . }}</span>
+        {{ end }}
       </div>
-    </div>
+    {{ end }}
+    <h2 style="font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">
+      <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#C17F24'" onmouseout="this.style.color='#3D2B1F'">{{ .Title }}</a>
+    </h2>
+    {{ with .Params.description }}
+      <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.6; margin: 0 0 1rem;">{{ . }}</p>
+    {{ end }}
+    <a href="{{ .RelPermalink }}" style="display: inline-block; font-size: 0.85rem; font-weight: 600; color: #C17F24; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#a86b1d'" onmouseout="this.style.color='#C17F24'">Leer más →</a>
   </div>
 </article>
