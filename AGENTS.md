@@ -5,7 +5,7 @@
 1. **Verify before continuing**: After modifying any file, use `read` to check it before proceeding. Never assume it was written correctly.
 2. **Check available skills**: Before writing articles, copy, or analyses, check if there is an applicable skill (`copywriting`, `keyword-research`, etc.) and use it. Also, if there is a skill for editing or designing web pages, use it whenever requested or when we want to audit the website's design.
 3. **Check for clean code after editing**: After each file modification, verify that there is no duplicate code, misplaced code, or unnecessary elements. Remove redundant blocks, unnecessary CSS classes, unused variables, or obsolete configurations.
-4. **Search Amazon before writing product articles**: When writing articles that include Amazon products (reviews, comparisons, "best X" lists), ALWAYS search Amazon.es first using `webfetch` to verify the products exist, get real prices, ratings, and ASINs. Never invent product names, models, or prices. Use the `{{< producto url="https://www.amazon.es/dp/ASIN" >}}` shortcode with real ASINs.
+4. **Search Amazon before writing product articles**: When writing articles that include Amazon products (reviews, comparisons, "best X" lists), ALWAYS search Amazon.es first using `webfetch` to verify the products exist, get real prices, ratings, and ASINs. Never invent product names, models, or prices. Use the `{{< amazon url="https://www.amazon.es/dp/ASIN" >}}` shortcode with real ASINs.
 
 ## Commands
 
@@ -16,7 +16,7 @@
 | Create new content | `hugo new content <section>/<name>.md` |
 | Update theme | `git submodule update --remote --merge` |
 
-Build output should show 27 pages, 26 static files, 0 errors.
+Build output should show 35 pages, 33 static files, 0 errors.
 
 ## Stack and Architecture
 
@@ -26,6 +26,7 @@ Build output should show 27 pages, 26 static files, 0 errors.
 - **No Node.js**: pure Hugo project, no `package.json` or JS build.
 - **Color palette**: Cream (#FAF7F2), light wood (#E8DFD0), brown (#3D2B1F), forest green (#2D4739), amber (#C17F24).
 - **Typography**: Lora (headings) + Inter (body) via Google Fonts.
+- **Google Analytics**: `G-0MSJCJDP9R`, only in production, consent-gated via cookie banner.
 
 ## Critical Gotchas
 
@@ -34,7 +35,7 @@ Build output should show 27 pages, 26 static files, 0 errors.
 - Background pattern on `<body>` only works as an inline style in `layouts/baseof.html` (CSS class approach failed).
 
 ### Sticky Header
-- CSS `position: sticky` does NOT work (Ananke theme interferes). Implementation uses JavaScript with `position: fixed` + a wrapper div (`ResizeObserver` updates wrapper height to prevent layout shift). See `head-additions.html`.
+- CSS `position: sticky` does NOT work (Ananke theme interferes). Implementation uses JavaScript with `position: fixed` + a wrapper div (`ResizeObserver` updates wrapper height to prevent layout shift). See `head-additions.html` which loads `static/js/sticky-nav.js`.
 
 ### Tachyons Overrides
 - Ananke uses Tachyons CSS framework. Many utility classes (`.bg-black-80`, `.white-90`, `.white-80`, `.hover-white`) require overrides in `static/css/custom.css` with `!important` because Tachyons is loaded after custom CSS.
@@ -72,7 +73,7 @@ All affiliate links use `{{< amazon url="..." text="..." >}}` (`layouts/shortcod
 - **Never** place Amazon links directly in Markdown without the shortcode.
 - Default text: `"Ver precio"`.
 
-Product cards use `{{< producto url="..." img="..." title="..." >}}description{{< /producto >}}` (`layouts/shortcodes/producto.html`). Inline card: image left (200×200), text right, Amazon CTA button inside card.
+Product cards use `{{< producto url="..." img="..." title="..." >}}description{{< /producto >}}` (`layouts/shortcodes/producto.html`). Inline card: image left (180×180), text right, Amazon CTA button inside card.
 
 **IMPORTANT — Card content structure**: The shortcode splits content on `---split---`. Everything before it is the intro (wraps next to the image), everything after goes below in `.product-card-details`. ALWAYS use this format:
 
@@ -105,6 +106,7 @@ Never put lists or "Lo que me gusta" in the intro section — they must go after
 - **Dates**: `YYYY-MM-DDTHH:MM:SS+02:00` format. `buildFuture = false` — articles with future dates are not published.
 - **Disclosure Note**: Every article containing affiliate links must include the Amazon Associates disclosure note near the beginning. Also displayed automatically in the footer via `params.amazon_disclosure`.
 - **Tone**: Aimed at beginners, approachable, without unnecessary technical jargon.
+- **`private: true`**: Used on legal pages to prevent indexing (`noindex, nofollow` in baseof.html).
 
 ## FAQ Schema (Rich Snippets)
 
@@ -118,6 +120,8 @@ faq:
 
 Visual FAQ in content uses `{{< faq q="¿Question?" >}}Answer{{< /faq >}}` shortcode (`layouts/shortcodes/faq.html`). Goldmark strips raw HTML from markdown, so raw `<details>` tags won't work.
 
+Schema partials auto-generated in `baseof.html`: `schema-faq.html`, `schema-breadcrumb.html`, `schema-howto.html`, `schema-websearch.html`.
+
 ## Table of Contents
 
 TOC is auto-generated via `{{ .TableOfContents }}` and collapsible using `<details>/<summary>`. Defaults to `toc = true` in frontmatter. See `layouts/_partials/toc.html`.
@@ -126,7 +130,7 @@ TOC is auto-generated via `{{ .TableOfContents }}` and collapsible using `<detai
 
 ## Legal Pages
 
-Three EU-compliant pages exist in `content/legal/` with placeholder data (`[tu@email.com]`, `[Tu NIF/CIF]`, etc.). These need real data filled in before going live. Footer menu links to them via `menus.toml` `[[footer]]` entries.
+Three EU-compliant pages exist in `content/legal/` with real data. Footer menu links to them via `menus.toml` `[[footer]]` entries. These pages use `private: true` frontmatter to exclude from sitemap and search indexing.
 
 ## Footer
 
@@ -142,3 +146,11 @@ Custom `layouts/_partials/site-footer.html` (Ananke's default is NOT used):
 - Hugo is installed from `.deb` on every run (no cache).
 - `submodules: recursive` is required to clone Ananke.
 - Artifact: `./public` → GitHub Pages.
+
+## Cookie Consent
+
+Custom implementation in `layouts/_partials/cookie-consent.html`:
+- localStorage-based (`cookie-consent` key, values: `accepted`/`rejected`).
+- Shows banner only when no consent stored.
+- Accept grants GA analytics storage; reject keeps it denied.
+- Loaded in `baseof.html` at bottom of `<body>`.
