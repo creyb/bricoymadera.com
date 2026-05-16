@@ -74,6 +74,22 @@ All affiliate links use `{{< amazon url="..." text="..." >}}` (`layouts/shortcod
 
 Product cards use `{{< producto url="..." img="..." title="..." >}}description{{< /producto >}}` (`layouts/shortcodes/producto.html`). Inline card: image left (200×200), text right, Amazon CTA button inside card.
 
+**IMPORTANT — Card content structure**: The shortcode splits content on `---split---`. Everything before it is the intro (wraps next to the image), everything after goes below in `.product-card-details`. ALWAYS use this format:
+
+```
+{{< producto img="..." title="..." url="..." >}}
+Intro text here.
+---split---
+**Lo que me gusta:**
+- item
+**Lo que no me gusta:**
+- item
+**Ideal para:** description.
+{{< /producto >}}
+```
+
+Never put lists or "Lo que me gusta" in the intro section — they must go after `---split---`.
+
 ## Images
 
 - Location: `static/images/` (`.webp` format).
