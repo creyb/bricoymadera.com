@@ -49,6 +49,7 @@ He revisado los taladros inalámbricos más vendidos en Amazon España para hace
 {{< producto img="/images/taladro-dca-adjz2035.webp" title="DCA ADJZ2035 Taladro Inalámbrico 20V" url="https://amzn.to/4wy9hD1" >}}
 
 Si nunca has tenido un taladro inalámbrico y quieres empezar sin gastar mucho, este es tu modelo. El DCA ADJZ2035 cuesta alrededor de 40€ y ofrece más de lo que esperas por ese precio.
+
 <!--more-->
 **Lo que me gusta:**
 - 20V de potencia real con batería de 2.0Ah incluida
