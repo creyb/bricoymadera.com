@@ -179,8 +179,8 @@ a, button {
 }
 
 .product-card-img img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
   border-radius: 8px;
   background: #f9f9f9;
@@ -295,8 +295,8 @@ a, button {
     text-align: center;
   }
   .product-card-img img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
 }
 
