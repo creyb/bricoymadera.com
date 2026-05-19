@@ -96,6 +96,7 @@ Never put lists or "Lo que me gusta" in the intro section — they must go after
 - Location: `static/images/` (`.webp` format).
 - Reference in content: absolute path `/images/filename.webp`.
 - Names in descriptive `kebab-case`.
+- **Check existing names first**: Before suggesting image filenames, glob `static/images/*.webp` to avoid duplicates. If a name conflicts, append a suffix (e.g., `-2`, `-hero`).
 - `alt` text required for every image (in Spanish, descriptive).
 - Logo: `static/images/logo.webp` (transparent background). Sized via `.site-nav .site-logo { height: 70px !important; }` in `custom.css`.
 

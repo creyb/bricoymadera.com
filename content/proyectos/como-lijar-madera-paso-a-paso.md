@@ -123,7 +123,7 @@ Envolver la lija alrededor de un bloc de corcho es mejor que una tabla de madera
 
 ## Paso 3: Lijado con Lijadora Orbital
 
-![Lijadora orbital en uso sobre una tabla de madera](/images/lijadora-orbital-madera.webp)
+![Lijadora orbital en uso sobre una tabla de madera](/images/lijadora-orbital-madera-2.webp)
 
 La lijadora orbital es la mejor amiga del bricolajista. Reduce el tiempo de lijado a una fracción y da resultados más uniformes que el lijado a mano.
 
