@@ -53,6 +53,16 @@ a:hover {
   color: var(--color-forest);
 }
 
+.nested-copy-line-height a,
+.toc-body a {
+  color: var(--color-amber);
+}
+
+.nested-copy-line-height a:hover,
+.toc-body a:hover {
+  color: var(--color-forest);
+}
+
 a.link {
   text-decoration: none !important;
 }
