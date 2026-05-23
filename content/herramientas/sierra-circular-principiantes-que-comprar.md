@@ -74,7 +74,7 @@ He seleccionado estos modelos por su relación calidad-precio, valoraciones real
 
 ### 1. Enventor 1200W — El Más Vendido
 
-{{< producto img="/images/sierra-circular-portatil.webp" title="Enventor Sierra Circular 1200W" url="https://amzn.to/4dF7R3m" >}}
+{{< producto img="/images/eventor-sierra-circular.webp" title="Enventor Sierra Circular 1200W" url="https://amzn.to/4e02sCN" >}}
 El favorito indiscutible de Amazon España. Con más de 1.800 valoraciones y nota 4.4, es la sierra circular que más compran los principiantes.
 ---split---
 **Lo que me gusta:**
@@ -92,7 +92,7 @@ El favorito indiscutible de Amazon España. Con más de 1.800 valoraciones y not
 
 ### 2. DEKOPRO 1200W — La Alternativa Económica
 
-{{< producto img="/images/sierra-circular-portatil.webp" title="DEKOPRO Sierra Circular 1200W" url="https://amzn.to/4cVZ6sL" >}}
+{{< producto img="/images/dekopro-sierra-circular.webp" title="DEKOPRO Sierra Circular 1200W" url="https://amzn.to/4uv050N" >}}
 Si buscas algo más barato sin renunciar a calidad, esta es tu opción. 1200W, 4800 RPM y una profundidad de corte de 65mm a 90°.
 ---split---
 **Lo que me gusta:**
@@ -110,7 +110,7 @@ Si buscas algo más barato sin renunciar a calidad, esta es tu opción. 1200W, 4
 
 ### 3. DEWINNER Inalámbrica — La Más Versátil
 
-{{< producto img="/images/sierra-circular-portatil.webp" title="DEWINNER Sierra Circular Inalámbrica" url="https://amzn.to/4dD8J2k" >}}
+{{< producto img="/images/dewinner-sierra-circular.webp" title="DEWINNER Sierra Circular Inalámbrica" url="https://amzn.to/49ljrgm" >}}
 ¿No quieres depender de un enchufe? Esta sierra inalámbrica con batería de 4.0Ah te da libertad total.
 ---split---
 **Lo que me gusta:**
@@ -129,7 +129,7 @@ Si buscas algo más barato sin renunciar a calidad, esta es tu opción. 1200W, 4
 
 ### 4. Bosch Professional GKS 190 — La Premium
 
-{{< producto img="/images/sierra-circular-portatil.webp" title="Bosch Professional GKS 190" url="https://amzn.to/4cWk9vQ" >}}
+{{< producto img="/images/bosch-sierra-circular.webp" title="Bosch Professional GKS 190" url="https://amzn.to/4fmqR6X" >}}
 Si puedes invertir más, Bosch es Bosch. 1400W, 8.200 valoraciones con nota 4.6, y una calidad de construcción que se nota desde el primer uso.
 ---split---
 **Lo que me gusta:**
@@ -148,7 +148,7 @@ Si puedes invertir más, Bosch es Bosch. 1400W, 8.200 valoraciones con nota 4.6,
 
 ### 5. Bosch PKS 66 AF — La de Guía Integrada
 
-{{< producto img="/images/sierra-circular-portatil.webp" title="Bosch PKS 66 AF" url="https://amzn.to/49Xz7kL" >}}
+{{< producto img="/images/bosch-sierra-pks.webp" title="Bosch PKS 66 AF" url="https://amzn.to/4dB9EE1" >}}
 Otra apuesta de Bosch, pero con un enfoque diferente: incluye un sistema de guía integrado que facilita mucho los cortes rectos.
 ---split---
 **Lo que me gusta:**
