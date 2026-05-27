@@ -94,8 +94,6 @@ Una bandeja de madera es el proyecto perfecto para empezar. Es útil, sencilla y
 
 Una estantería flotante es uno de los proyectos de madera más prácticos para cualquier habitación. Solo necesitas una tabla y un sistema de anclaje oculto.
 
-![Estantería flotante de madera](/images/estanteria-flotante-madera.webp "Estantería flotante fácil de hacer")
-
 ### Materiales
 
 - Tabla de pino o roble de 80 x 25 x 2.5 cm
@@ -120,8 +118,6 @@ Una estantería flotante es uno de los proyectos de madera más prácticos para 
 **Dificultad:** Fácil | **Tiempo:** 2-3 horas | **Coste:** 8-15€
 
 Las cajas de madera son extremadamente versátiles. Puedes usarlas para organizar herramientas, juguetes, revistas o lo que necesites.
-
-![Caja de madera para almacenamiento](/images/caja-madera-facil.webp "Caja de madera sencilla para almacenar")
 
 ### Materiales
 
@@ -175,8 +171,6 @@ Una mesita de noche es un proyecto muy satisfactorio porque es funcional y te da
 
 Las jardineras de madera dan un toque rústico y natural a tu terraza o jardín. Son perfectas para hierbas aromáticas o flores.
 
-![Jardinera de madera para terraza](/images/jardinera-madera-facil.webp "Jardinera de madera fácil de construir")
-
 ### Materiales
 
 - Tablas de pino tratado para exterior (resistente a la humedad)
@@ -201,8 +195,6 @@ Las jardineras de madera dan un toque rústico y natural a tu terraza o jardín.
 **Dificultad:** Media | **Tiempo:** 4-5 horas | **Coste:** 25-40€
 
 Una mesa de trabajo propia es de los proyectos más útiles que puedes hacer. Te dará un espacio dedicado para todos tus futuros proyectos.
-
-![Mesa de trabajo de bricolaje](/images/mesa-trabajo-bricolaje.webp "Mesa de trabajo sencilla para el garaje")
 
 ### Materiales
 
@@ -230,8 +222,6 @@ Una mesa de trabajo propia es de los proyectos más útiles que puedes hacer. Te
 
 Una estantería de tres niveles es un proyecto ideal para practicar la construcción de estructuras con múltiples repisas.
 
-![Estantería de tres niveles](/images/estanteria-libros-madera.webp "Estantería de madera para libros")
-
 ### Materiales
 
 - 3 tablas de 80 x 25 x 2 cm (repisas)
@@ -258,8 +248,6 @@ Una estantería de tres niveles es un proyecto ideal para practicar la construcc
 
 Un escritorio sencillo es perfecto para habitaciones pequeñas. Con una tabla grande como superficie y cuatro patas robustas, tienes un mueble funcional y económico.
 
-![Escritorio de madera sencillo](/images/escritorio-madera-facil.webp "Escritorio sencillo para estudiar")
-
 ### Materiales
 
 - Tabla de 120 x 60 x 3 cm (superficie)
@@ -285,8 +273,6 @@ Un escritorio sencillo es perfecto para habitaciones pequeñas. Con una tabla gr
 **Dificultad:** Media | **Tiempo:** 4-5 horas | **Coste:** 20-35€
 
 Una caja de herramientas de madera es un proyecto muy práctico y te da la oportunidad de trabajar con bisagras y herrajes.
-
-![Caja de herramientas de madera](/images/caja-herramientas-madera.webp "Caja portátil de herramientas para principiantes")
 
 ### Materiales
 
@@ -394,36 +380,11 @@ Sí, muchos principiantes empiezan vendiendo sus proyectos en mercados locales o
 
 ---
 
-## Herramientas Recomendadas para Estos Proyectos
+## ¿Qué Herramientas Necesitas?
 
-Si todavía no tienes las herramientas necesarias, aquí tienes algunas opciones populares entre nuestros lectores:
+Para hacer estos proyectos no necesitas una boutique de herramientas. Con un conjunto básico puedes empezar ya. Si todavía no las tienes, estas guías te ayudarán a elegir las mejores:
 
-{{< producto img="/images/taladro-inalambrico-proyectos.webp" title="Taladro Inalámbrico para Proyectos" url="https://amzn.to/XXXXXX" >}}
-Un taladro inalámbrico es la herramienta más versátil para estos proyectos. Con él puedes taladrar, atornillar e incluso lijar con accesorios.
----split---
-**Lo que necesitas:** Potencia suficiente para madera blanda (12-18V), bateria recargable y estuche.
-**Ideal para:** Todos los proyectos de esta lista.
-{{< /producto >}}
-
-{{< producto img="/images/lijadora-orbital-proyectos.webp" title="Lijadora Orbital para Acabados" url="https://amzn.to/XXXXXX" >}}
-Una lijadora orbital es esencial para conseguir acabados suaves en todos tus proyectos. Ahorra tiempo y esfuerzo comparado con lijar a mano.
----split---
-**Lo que necesitas:** Velocidad variable, aspiración de polvo y varias hojas de lija.
-**Ideal para:** Proyectos donde el acabado es importante.
-{{< /producto >}}
-
-{{< producto img="/images/sierra-manual-proyectos.webp" title="Sierra Manual para Cortes Precisos" url="https://amzn.to/XXXXXX" >}}
-Si aún no tienes una sierra circular, una buena sierra manual es económica y perfecta para cortes rectos en tablas de hasta 2 cm.
----split---
-**Lo que necesitas:** Hoja de calidad y mango ergonómico.
-**Ideal para:** Cortes precisos sin necesidad de electricidad.
-{{< /producto >}}
-
----
-
-## Artículos Relacionados
-
-- [Herramientas Básicas de Carpintería](/herramientas/herramientas-basicas-carpinteria/) — Todo lo que necesitas saber antes de empezar
-- [Los 5 Mejores Taladros Inalámbricos Baratos](/herramientas/mejores-taladros-inalambricos-baratos/) — Elige el taladro perfecto para tus proyectos
-- [Sierra Circular para Principiantes](/herramientas/sierra-circular-principiantes-que-comprar/) — Guía completa para elegir tu primera sierra circular
-- [Cómo Lijar Madera Paso a Paso](/guias/como-lijar-madera-paso-a-paso/) — Dominia el arte del lijado para acabados perfectos
+- **[Herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/)** — La lista completa de lo que necesitas para empezar desde cero.
+- **[Mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/)** — Un taladro inalámbrico es la herramienta más versátil que puedes tener. Te ayudamos a elegir uno sin gastar de más.
+- **[Sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar/)** — Si quieres cortes más rápidos y precisos, una sierra circular es una gran inversión.
+- **[Cómo lijar madera paso a paso](/guias/como-lijar-madera-paso-a-paso/)** — El lijado marca la diferencia entre un proyecto amateur y uno profesional.
