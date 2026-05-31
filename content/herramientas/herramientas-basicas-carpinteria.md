@@ -24,6 +24,8 @@ faq:
 
 Es normal. Cuando empiezas, la cantidad de opciones puede abrumarte. Y si compras mal, acabas con herramientas baratas que no sirven o con herramientas profesionales que no necesitas.
 
+Antes de empezar, es útil conocer [los tipos de madera y sus propiedades](https://es.wikipedia.org/wiki/Madera#Propiedades_f%C3%ADsicas_de_la_madera), ya que cada una requiere herramientas y técnicas ligeramente distintas.
+
 En esta guía te voy a mostrar **las 15 herramientas básicas de carpintería que realmente necesitas** para empezar a hacer tus primeros proyectos sin gastar más de la cuenta.
 
 > **Nota de transparencia**: Algunos enlaces de este artículo son enlaces de afiliados de Amazon. Si compras a través de ellos, nosotros recibimos una pequeña comisión sin coste adicional para ti. Solo recomendamos herramientas que consideramos buenas para principiantes.
@@ -178,6 +180,7 @@ Sin estos accesorios, las herramientas anteriores no sirven de mucho.
 
 - Esto no es negociable. Las virutas y el polvo de madera son peligrosos para tus ojos y pulmones.
 - **Qué buscar**: Gafas con certificación CE, mascarilla FFP2 mínimo.
+- Para más información sobre la selección y uso correcto de equipos de protección individual, puedes consultar las [fichas técnicas del INSST sobre EPIs](https://www.insst.es/fichas-de-seleccion-y-uso-de-epi-fsu-epi).
 
 {{< /producto >}}
 

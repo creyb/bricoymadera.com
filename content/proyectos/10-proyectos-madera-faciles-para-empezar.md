@@ -56,7 +56,7 @@ La mayoría de estos proyectos solo requieren un conjunto básico de herramienta
 - **Tornillos de madera** (varias tamaños: 30mm, 40mm, 50mm)
 - **Lijas** (grano 80, 120 y 220)
 - **Barniz o aceite para madera**
-- **Pegamento para madera (D3 o D4)**
+- **Pegamento para madera (D3 o D4)**: la clasificación D indica la resistencia al agua. D3 es para interior con humedad ocasional, D4 para exterior. Más información sobre [clasificaciones de adhesivos para madera](https://es.wikipedia.org/wiki/Madera#Manufacturas_de_la_madera).
 
 ---
 

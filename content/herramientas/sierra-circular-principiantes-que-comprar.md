@@ -174,9 +174,9 @@ Otra apuesta de Bosch, pero con un enfoque diferente: incluye un sistema de guí
 Una sierra circular es una herramienta potente. Antes de hacer tu primer corte, asegúrate de tener:
 
 - **Gafas de protección**: el polvo y las astillas vuelan por todos lados
-- **Mascarilla contra polvo**: la madera genera muchínimo polvo fino
+- **Mascarilla contra polvo**: la madera genera muchísimo polvo fino
 - **Guantes de trabajo**: protegen tus manos de astillas (nunca guantes holgados cerca de la hoja)
-- **Orejeras o tapones**: las sierras circulares hacen entre 90 y 100 decibelios
+- **Orejeras o tapones**: las sierras circulares hacen entre 90 y 100 decibelios. La exposición prolongada a este nivel de ruido puede causar daños auditivos irreversibles. Puedes consultar las [recomendaciones del INSST sobre protección auditiva](https://www.insst.es/materias/riesgos/riesgos-fisicos).
 
 Si ya tienes estas protecciones, echa un vistazo a nuestra guía de [herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/) para completar tu taller.
 

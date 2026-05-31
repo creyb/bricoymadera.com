@@ -68,7 +68,7 @@ El papel de lija es tu herramienta principal. Necesitas al menos tres granos dif
 
 Esto no es negociable:
 
-- **Mascarilla FFP2**: el polvo de madera es perjudicial para los pulmones, especialmente si lijas maderas tratadas.
+- **Mascarilla FFP2**: el polvo de madera es perjudicial para los pulmones, especialmente si lijas maderas tratadas. El INSST clasifica el polvo de madera como [agente carcinógeno en el ámbito laboral](https://www.insst.es/materias/riesgos/riesgos-quimicos).
 - **Gafas de protección**: las partículas finas vuelan y pueden irritar los ojos.
 - **Guantes**: protegen las manos del roce con la lija.
 
@@ -185,7 +185,7 @@ Una vez la superficie esté limpia y lisa, ya puedes aplicar tu acabado: pintura
 
 ![Ejemplo de madera de pino lijada y sin lijar](/images/lijar-madera-pino-ejemplo.webp)
 
-No todas las maderas se lijan igual. Aquí van algunos consejos según el tipo:
+No todas las maderas se lijan igual. Cada especie tiene propiedades físicas distintas —densidad, dureza, porosidad— que afectan directamente al lijado. Si quieres profundizar en las [propiedades físicas de la madera](https://es.wikipedia.org/wiki/Madera#Propiedades_f%C3%ADsicas_de_la_madera), Wikipedia tiene un buen resumen. Aquí van algunos consejos según el tipo:
 
 ### Pino y maderas blandas
 

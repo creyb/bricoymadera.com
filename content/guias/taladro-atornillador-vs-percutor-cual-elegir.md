@@ -120,7 +120,7 @@ Y si tu proyecto incluye cortar madera, no dejes de leer nuestra guía sobre [si
 
 **No mirar el embrague.** Si compras un percutor para atornillar, asegúrate de que tenga embrague ajustable con varias posiciones. Sin eso, no podrás controlar el par de apriete y acabarás arrancando tornillos.
 
-**Olvidarse de las brocas.** Un taladro sin brocas buenas es como un coche sin ruedas. Para hormigón necesitas brocas de widia (punta de carburo), para madera brocas de velocidad (brad point) y para metal brocas de HSS. Compra brocas decentes, no las más baratas que vienen en el kit.
+**Olvidarse de las brocas.** Un taladro sin brocas buenas es como un coche sin ruedas. Para hormigón necesitas brocas de widia (punta de carburo), para madera brocas de velocidad (brad point) y para metal brocas de HSS. Compra brocas decentes, no las más baratas que vienen en el kit. Si quieres conocer los diferentes [tipos de brocas y sus usos](https://es.wikipedia.org/wiki/Broca), consulta esta referencia.
 
 ## Preguntas frecuentes
 
