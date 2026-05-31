@@ -39,6 +39,8 @@ Lo que lo hace especial:
 
 ¿Qué **no** puede hacer? Taladrar en paredes de hormigón, ladrillo o mampostería. Si lo intentas, la broca se calentará sin entrar, y acabarás con un agujero irreconocible y la broja destrozada.
 
+![Detalle del embrague ajustable de un taladro atornillador con anillo de posiciones](/images/taladro-atornillador-mecanismo.webp)
+
 ## ¿Qué es un taladro percutor?
 
 El taladro percutor es, básicamente, un taladro atornillador **con función extra**: la percusión. Además de girar, la broca hace pequeños golpes hacia adelante y hacia atrás, como un martillito integrado.
@@ -53,6 +55,8 @@ Características principales:
 - **También atornilla**: la mayoría tienen embrague ajustable y giro reversible, así que también sirven para atornillar.
 
 ¿El inconveniente? Es más pesado, más voluminoso y más caro. Si solo vas a atornillar, estás pagando por una función que no vas a usar.
+
+![Taladro percutor taladrando una pared de hormigón con polvo saliendo](/images/taladro-percutor-pared.webp)
 
 ## Diferencias clave entre taladro atornillador y percutor
 
@@ -117,6 +121,8 @@ Y si tu proyecto incluye cortar madera, no dejes de leer nuestra guía sobre [si
 **No mirar el embrague.** Si compras un percutor para atornillar, asegúrate de que tenga embrague ajustable con varias posiciones. Sin eso, no podrás controlar el par de apriete y acabarás arrancando tornillos.
 
 **Olvidarse de las brocas.** Un taladro sin brocas buenas es como un coche sin ruedas. Para hormigón necesitas brocas de widia (punta de carburo), para madera brocas de velocidad (brad point) y para metal brocas de HSS. Compra brocas decentes, no las más baratas que vienen en el kit.
+
+![Tipos de brocas: punta de carburo para hormigón, brad point para madera y HSS para metal](/images/brocas-taladro-diferentes.webp)
 
 ## Preguntas frecuentes
 
