@@ -20,6 +20,8 @@ faq:
     a: "Si solo vas a atornillar y desatornillar, un atornillador es suficiente y más barato. Si también necesitas colgar cuadros en pared de hormigón o hacer agujeros en la pared, un percutor te servirá para todo."
 ---
 
+![Taladro atornillador vs percutor: dos taladros inalámbricos sobre mesa de trabajo](/images/taladro-atornillador-vs-percutor-hero.webp)
+
 Si estás pensando en comprar un taladro y has empezado a buscar, te habrás encontrado con un dilema que confunde a más de uno: **¿taladro atornillador o taladro percutor?** Parecen iguales por fuera, pero por dentro funcionan de forma muy distinta.
 
 Te lo explico sin tecnicismos innecesarios para que al final de esta guía sepas exactamente cuál necesitas (y cuál no te compensa).
