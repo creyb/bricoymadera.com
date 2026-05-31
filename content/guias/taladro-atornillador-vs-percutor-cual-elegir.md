@@ -122,8 +122,6 @@ Y si tu proyecto incluye cortar madera, no dejes de leer nuestra guía sobre [si
 
 **Olvidarse de las brocas.** Un taladro sin brocas buenas es como un coche sin ruedas. Para hormigón necesitas brocas de widia (punta de carburo), para madera brocas de velocidad (brad point) y para metal brocas de HSS. Compra brocas decentes, no las más baratas que vienen en el kit.
 
-![Tipos de brocas: punta de carburo para hormigón, brad point para madera y HSS para metal](/images/brocas-taladro-diferentes.webp)
-
 ## Preguntas frecuentes
 
 {{< faq q="¿Se puede usar un taladro percutor como atornillador?" >}}Sí, si tiene embrague ajustable y giro reversible. La mayoría de taladros percutores modernos permiten atornillar, pero no son tan cómodos como un atornillador dedicado por su mayor peso y tamaño.{{< /faq >}}
