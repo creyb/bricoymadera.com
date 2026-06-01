@@ -3,6 +3,8 @@ title: "Aviso Legal"
 date: 2026-05-14T10:00:00+02:00
 draft: false
 private: true
+sitemap:
+  disable: true
 description: "Aviso legal de Brico y Madera. Información sobre el titular del sitio web, condiciones de uso y legislación aplicable."
 ---
 

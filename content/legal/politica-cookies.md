@@ -3,6 +3,8 @@ title: "Política de Cookies"
 date: 2026-05-14T10:00:00+02:00
 draft: false
 private: true
+sitemap:
+  disable: true
 description: "Política de cookies de Brico y Madera. Información sobre las cookies utilizadas en este sitio web según la normativa europea."
 ---
 
