@@ -378,4 +378,7 @@ a, button {
     position: relative;
     flex-wrap: wrap;
   }
+  .categories-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
