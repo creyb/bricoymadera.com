@@ -120,7 +120,7 @@ Después de revisar los barnices más vendidos y mejor valorados en Amazon Espa�
 
 ### 1. JOVIRA Lasur Mate F-14 — El mejor para interior
 
-{{< producto img="/images/barniz-madera-tipos.webp" title="JOVIRA Lasur Mate F-14 750 ml" url="https://www.amazon.es/dp/B08Q7XTC4Y" >}}
+{{< producto img="/images/barniz-madera-tipos.webp" title="JOVIRA Lasur Mate F-14 750 ml" url="https://amzn.to/4x8yrbC" >}}
 
 JOVIRA es una marca española con más de 80 años de trayectoria en pinturas y barnices, y su lasur mate F-14 es uno de los productos más vendidos en Amazon para uso interior. Si quieres un acabado natural y mate para muebles, puertas o estanterías, este es un acierto seguro.
 
@@ -144,7 +144,7 @@ JOVIRA es una marca española con más de 80 años de trayectoria en pinturas y 
 
 ### 2. JOVIRA Lasur Satinado E-20 — El más versátil
 
-{{< producto img="/images/barniz-madera-interior.webp" title="JOVIRA Lasur Satinado E-20 750 ml" url="https://www.amazon.es/dp/B084TTYK86" >}}
+{{< producto img="/images/barniz-madera-interior.webp" title="JOVIRA Lasur Satinado E-20 750 ml" url="https://amzn.to/4dPgF5y" >}}
 
 Si tuvieras que comprar un solo barniz para tener en casa, probablemente sería este. El acabado satinado es el más agradecido: protege bien, disimula las imperfecciones del lijado y combina con cualquier estilo. Es, además, el barniz con más opiniones de la selección (más de 1.300).
 
@@ -168,7 +168,7 @@ Si tuvieras que comprar un solo barniz para tener en casa, probablemente sería 
 
 ### 3. JOVIRA Barniz Exterior Mate H-26 — El más resistente a la intemperie
 
-{{< producto img="/images/barniz-madera-exterior.webp" title="JOVIRA Barniz Exterior Mate H-26 750 ml" url="https://www.amazon.es/dp/B08NHQ4NS4" >}}
+{{< producto img="/images/barniz-madera-exterior.webp" title="JOVIRA Barniz Exterior Mate H-26 750 ml" url="https://amzn.to/3SjEt9b" >}}
 
 Este es el barniz específico para madera en exterior. Lleva filtros UV, es impermeable y aguanta lluvia, sol y cambios de temperatura sin agrietarse. Está formulado para vallas, pérgolas, muebles de jardín y cualquier madera que sufra la intemperie.
 
@@ -192,7 +192,7 @@ Este es el barniz específico para madera en exterior. Lleva filtros UV, es impe
 
 ### 4. PROA Teak Oil — La opción para muebles de teca y jardín
 
-{{< producto img="/images/barniz-madera-aplicacion.webp" title="PROA Teak Oil 4 Litros" url="https://www.amazon.es/dp/B01FD8KTM2" >}}
+{{< producto img="/images/barniz-madera-aplicacion.webp" title="PROA Teak Oil 4 Litros" url="https://amzn.to/4o5Hje3" >}}
 
 Cambiamos de tercio: este no es un barniz propiamente dicho, sino un **aceite protector para madera de exterior**, especialmente recomendado para teca, iroko y otras maderas tropicales usadas en muebles de jardín. Penetra en la madera, la nutre y la protege sin crear película superficial, lo que evita que se descascare.
 
@@ -279,9 +279,9 @@ Para preparar la madera correctamente antes de aplicar el barniz, contar con una
 
 Si has llegado hasta aquí y quieres ir directo al grano, esta es nuestra recomendación rápida:
 
-- **Para muebles de interior y acabado natural**: [JOVIRA Lasur Mate F-14](https://www.amazon.es/dp/B08Q7XTC4Y) (750 ml, ~13 €).
-- **Para interior con acabado satinado, el más polivalente**: [JOVIRA Lasur Satinado E-20](https://www.amazon.es/dp/B084TTYK86) (750 ml, ~13 €).
-- **Para exterior, vallas y muebles de jardín**: [JOVIRA Barniz Exterior Mate H-26](https://www.amazon.es/dp/B08NHQ4NS4) (750 ml, ~14 €).
-- **Para teca y maderas tropicales, acabado natural**: [PROA Teak Oil](https://www.amazon.es/dp/B01FD8KTM2) (4 L, ~30 €).
+- **Para muebles de interior y acabado natural**: [JOVIRA Lasur Mate F-14](https://amzn.to/4x8yrbC) (750 ml, ~13 €).
+- **Para interior con acabado satinado, el más polivalente**: [JOVIRA Lasur Satinado E-20](https://amzn.to/4dPgF5y) (750 ml, ~13 €).
+- **Para exterior, vallas y muebles de jardín**: [JOVIRA Barniz Exterior Mate H-26](https://amzn.to/3SjEt9b) (750 ml, ~14 €).
+- **Para teca y maderas tropicales, acabado natural**: [PROA Teak Oil](https://amzn.to/4o5Hje3) (4 L, ~30 €).
 
 Con cualquiera de los cuatro y un mínimo de cuidado en la preparación, conseguirás un acabado profesional que protegerá tu madera durante años. Y si te ha gustado esta guía y quieres más consejos sobre acabado y mantenimiento, no te pierdas la [categoría de Mantenimiento](/mantenimiento/) donde vamos a seguir publicando guías prácticas.
