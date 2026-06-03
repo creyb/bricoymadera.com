@@ -23,10 +23,16 @@
   weight = 4
 
 [[main]]
+  identifier = "mantenimiento"
+  name = "Mantenimiento"
+  url = "/mantenimiento/"
+  weight = 5
+
+[[main]]
   identifier = "sobre-nosotros"
   name = "Sobre Nosotros"
   url = "/sobre-nosotros/"
-  weight = 5
+  weight = 6
 
 [[footer]]
   identifier = "aviso-legal"
