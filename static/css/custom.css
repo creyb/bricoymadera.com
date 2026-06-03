@@ -165,6 +165,10 @@ a, button {
   transition: opacity 0.2s ease;
 }
 
+.measure-wide {
+  max-width: 1100px !important;
+}
+
 .nested-copy-line-height img {
   max-width: 100%;
   height: auto;
