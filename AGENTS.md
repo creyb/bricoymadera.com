@@ -100,6 +100,17 @@ Never put lists or "Lo que me gusta" in the intro section — they must go after
 - `alt` text required for every image (in Spanish, descriptive).
 - Logo: `static/images/logo.webp` (transparent background). Sized via `.site-nav .site-logo { height: 70px !important; }` in `custom.css`.
 
+## Image Generation (FAL MCP)
+
+- **Model**: `fal-ai/flux-2-pro` (Flux 2 Pro, Black Forest Labs). Better than Flux Pro 1.1 and cheaper ($0.03/MP vs $0.04/MP).
+- **Tool**: Use `fal-ai_run_model` only. `submit_job` / `check_job` / `get_job_result` return 405 on this endpoint.
+- **Prompts in English**, descriptive, photorealistic style for hero/inline images.
+- **Sizes**:
+  - Hero: `image_size=landscape_16_9` (1200×630 native → saves as 1024×576; upscale is fine because `max-width: 100%` in CSS).
+  - Inline: `image_size=landscape_4_3` (closest to 1200×800) or `landscape_16_9` and crop later.
+- **Cost estimate**: ~$0.03 per image. 5 images/article ≈ $0.15.
+- **After generation**: download to `static/images/<name>.webp` (convert from JPEG with `cwebp` or keep as-is if webp is not critical — Hugo serves both).
+
 ## Content Conventions
 
 - **Language**: Spanish (es-es).
