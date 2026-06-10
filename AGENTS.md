@@ -111,8 +111,16 @@ Never put lists or "Lo que me gusta" in the intro section — they must go after
 - **Cost estimate**: ~$0.03 per image. 5 images/article ≈ $0.15.
 - **After generation**: download to `static/images/<name>.webp` (convert from JPEG with `cwebp` or keep as-is if webp is not critical — Hugo serves both).
 
+## Article Workflow (Pre-Write)
+
+Before writing any article, even if the user provides a target keyword:
+
+1. **Load `keyword-research` skill** — identify related keywords, long-tails and question queries (People Also Ask) that can be woven into the article to broaden SEO reach. The user values related-keyword coverage, not just the single target.
+2. **Outline the article** with H2/H3 structure and image plan, then proceed to generation and writing.
+
 ## Content Conventions
 
+- **Word count**: User typically asks for 1500-2000 words. Slight overflow (up to ~50 words) is acceptable and preferred over cutting useful content. Do not aggressively trim to hit exactly 2000.
 - **Language**: Spanish (es-es).
 - **Frontmatter**: `title`, `date`, `draft`, `description`, `tags`, `categories`, `featured_image`, `toc`, `faq`.
 - **Dates**: `YYYY-MM-DDTHH:MM:SS+02:00` format. `buildFuture = false` — articles with future dates are not published.
