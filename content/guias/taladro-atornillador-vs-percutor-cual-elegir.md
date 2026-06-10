@@ -112,6 +112,8 @@ Si por el contrario necesitas un taladro percutor, recuerda que también puedes 
 
 Y si tu proyecto incluye cortar madera, no dejes de leer nuestra guía sobre [sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar), donde explicamos todo lo que necesitas saber antes de comprar una.
 
+Y cuando ya tengas el taladro y la sierra, el siguiente paso natural es montarte tu propio taller: tenemos un [plan completo para construir una mesa de carpintería casera](/proyectos/mesa-carpinteria-casera-plan-materiales/) que te servirá como pieza central.
+
 ## Errores comunes al elegir taladro
 
 **Comprar un atornillador pensando que taladrará la pared.** Es el error más frecuente. Si en tu casa las paredes son de hormigón o ladrillo (la mayoría), un atornillador no te sirve para taladrar en ellas. Ni siquiera con broca de punta de carburo: sin percusión, no entra.

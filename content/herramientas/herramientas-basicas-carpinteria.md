@@ -102,6 +102,7 @@ Una vez tengas las manuales, estas herramientas eléctricas te ahorrarán horas 
 
 - Probablemente la herramienta eléctrica más versátil que tendrás. Sirve para perforar, atornillar y, con los accesorios adecuados, hasta lijar.
 - **Qué buscar**: Batería de litio 18V, al menos 2 baterías, mandril de 13mm.
+- ¿No sabes si elegir un atornillador o un percutor? Mira nuestra [comparativa de taladro atornillador vs percutor](/guias/taladro-atornillador-vs-percutor-cual-elegir) y, si quieres ir directo a modelos concretos, revisa nuestra selección de los [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/).
 
 {{< /producto >}}
 
@@ -111,6 +112,7 @@ Una vez tengas las manuales, estas herramientas eléctricas te ahorrarán horas 
 
 - Te permite hacer cortes curvos, rectos y en ángulo. Es perfecta para proyectos como estanterías, cajas o figuras decorativas.
 - **Qué buscar**: Potencia mínima de 500W, velocidad variable, sistema de cambio rápido de hojas.
+- ¿Circular o caladora? Te lo explicamos al detalle en nuestra [guía de sierra circular vs sierra de calar](/guias/sierra-circular-vs-sierra-de-calar-cual-elegir).
 
 {{< /producto >}}
 
@@ -120,6 +122,7 @@ Una vez tengas las manuales, estas herramientas eléctricas te ahorrarán horas 
 
 - Lijar a mano es un suplicio. Una lijadora orbital te deja un acabado uniforme en una fracción del tiempo.
 - **Qué buscar**: Velocidad variable, sistema de aspiración de polvo, compatible con lijas estándar de 1/4 de hoja.
+- Para sacarle todo el partido, sigue nuestra [guía de cómo lijar madera paso a paso](/guias/como-lijar-madera-paso-a-paso) y, cuando llegue el momento de proteger la madera, consulta la [guía del mejor barniz para madera interior y exterior](/mantenimiento/mejor-barniz-para-madera-interior-y-exterior/).
 
 {{< /producto >}}
 
@@ -129,6 +132,7 @@ Una vez tengas las manuales, estas herramientas eléctricas te ahorrarán horas 
 
 - Si necesitas cortar tableros o hacer cortes largos y rectos, la sierra circular es tu mejor aliada.
 - **Qué buscar**: Disco de 184mm, guía paralela incluida, potencia de al menos 1.200W.
+- Si vas a dar el paso, nuestra [guía de sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar) te ayuda a elegir el modelo adecuado.
 
 {{< /producto >}}
 
@@ -247,6 +251,8 @@ Los kits pueden ser una buena opción para empezar porque son más económicos q
 No necesitas gastar una fortuna para empezar en carpintería. Con estas 15 herramientas básicas puedes abordar la mayoría de proyectos para principiantes: estanterías, mesas pequeñas, cajas decorativas, tablas de cortar y mucho más.
 
 **Mi recomendación**: empieza con las herramientas de prioridad alta y ve ampliando tu taller según lo necesites. No compres herramientas que no vas a usar.
+
+Cuando tengas el equipo listo, lo siguiente es practicar. Echa un vistazo a nuestra selección de [10 proyectos de madera fáciles para empezar desde cero](/proyectos/10-proyectos-madera-faciles-para-empezar/) y, si todavía no tienes superficie de trabajo, mira el [plan para construirte una mesa de carpintería casera](/proyectos/mesa-carpinteria-casera-plan-materiales/).
 
 ¿Tienes alguna duda sobre qué herramienta elegir? Déjala en los comentarios y te echo una mano.
 

@@ -141,7 +141,7 @@ La lijadora orbital es la mejor amiga del bricolajista. Reduce el tiempo de lija
 - **Lijar contra la veta con grano fino**: con grano 120 o más, siempre en dirección de la veta para un acabado limpio.
 - **Olvidar los cantos**: la lijadora es para superficies planas. Los cantos se lijan a mano.
 
-Si aún no tienes una lijadora orbital, echa un vistazo a nuestra selección de [taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/) — algunos incluyen accesorios de lijado que pueden servirte para empezar.
+Si aún no tienes una lijadora orbital, echa un vistazo a nuestra selección de [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/) — algunos incluyen accesorios de lijado que pueden servirte para empezar.
 
 ---
 
@@ -177,7 +177,7 @@ Este paso es crucial y muchos lo saltan. Si aplicas pintura o barniz sobre polvo
 3. **Deja secar completamente**: la madera debe estar seca antes de aplicar cualquier acabado. Espera al menos 30 minutos.
 4. **Si es necesario, pasa lija muy fina (320)**: después de limpiar, si detectas alguna imperfección residual, dale un repaso con lija 320.
 
-Una vez la superficie esté limpia y lisa, ya puedes aplicar tu acabado: pintura, barniz, aceite o laca. Si quieres saber más sobre cómo proteger la madera, te recomiendo revisar nuestras guías de herramientas para elegir los mejores productos.
+Una vez la superficie esté limpia y lisa, ya puedes aplicar tu acabado: pintura, barniz, aceite o laca. Si quieres saber más sobre cómo proteger la madera, echa un vistazo a nuestra [guía del mejor barniz para madera interior y exterior](/mantenimiento/mejor-barniz-para-madera-interior-y-exterior/).
 
 ---
 
@@ -249,7 +249,9 @@ Lijar madera no es complicado, pero sí requiere paciencia y hacer las cosas en 
 
 Si solo recuerdas una cosa: **nunca saltes grados de lija**. Cada grano elimina las marcas del anterior, y saltar pasos es la causa número uno de acabados defectuosos.
 
-¿Tienes algún proyecto de madera en mente? Aplica estos pasos y verás la diferencia. Si tienes dudas, escríbeme y te ayudo.
+¿Tienes algún proyecto de madera en mente? Aplica estos pasos y verás la diferencia. Si necesitas ideas, mira nuestros [10 proyectos de madera fáciles para empezar desde cero](/proyectos/10-proyectos-madera-faciles-para-empezar/) y, si todavía no tienes superficie de trabajo, el [plan para construir una mesa de carpintería casera](/proyectos/mesa-carpinteria-casera-plan-materiales/) te viene perfecto.
+
+Si tienes dudas, escríbeme y te ayudo.
 
 ---
 

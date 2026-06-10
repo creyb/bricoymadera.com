@@ -170,7 +170,7 @@ Si puedes estirar un poco el presupuesto (~61€), este DCA con motor brushless 
 
 ## Qué Mirar Antes de Comprar un Taladro Inalámbrico Barato
 
-No te dejes llevar solo por el precio. Estas son las especificaciones que realmente importan:
+No te dejes llevar solo por el precio. Estas son las especificaciones que realmente importan. Si quieres entender mejor las partes y el funcionamiento interno de un [taladro eléctrico](https://es.wikipedia.org/wiki/Taladro), la Wikipedia tiene un buen resumen técnico.
 
 ### Voltaje: ¿cuánto necesitas?
 
@@ -194,6 +194,8 @@ Con una batería trabajas, pero cuando se agota, toca esperar a que cargue (1-2 
 ### Función percutor: ¿la necesitas?
 
 Si solo vas a trabajar con madera, no. Si taladrarás paredes de ladrillo, sí. La diferencia de precio es mínima (5-10€) y te da más versatilidad.
+
+Si tu taladro va a ser la puerta de entrada al mundo del bricolaje, mira también nuestra [guía de sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar/) para completar el kit básico del taller.
 
 ---
 
@@ -220,6 +222,8 @@ Si tuviera que elegir solo uno:
 - **El mejor a largo plazo (61€)**: DCA ADJZ2055i Brushless. Motor brushless = más durabilidad.
 
 Para la mayoría de personas, el **HYCHIKA 18V Percutor** es la opción más inteligente. Tienes 18V, percutor, 55 accesorios y un precio que no duele.
+
+Si estás montando tu primer taller, este taladro encaja como pieza central de la [lista de herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/). Y si todavía dudas entre un atornillador y un percutor, nuestra [comparativa de taladro atornillador vs percutor](/guias/taladro-atornillador-vs-percutor-cual-elegir/) te lo aclara.
 
 ---
 

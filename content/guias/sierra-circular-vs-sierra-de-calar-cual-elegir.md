@@ -187,6 +187,7 @@ Si te has quedado con ganas de profundizar, en bricoymadera.com tenemos guías e
 - Para montar tu primer taller: [Las 15 herramientas básicas de carpintería que necesitas para empezar](/herramientas/herramientas-basicas-carpinteria).
 - Para el siguiente paso tras cortar: [Cómo lijar madera paso a paso](/guias/como-lijar-madera-paso-a-paso), la guía completa de lijado.
 - Si tu siguiente compra es un taladro: [Taladro atornillador vs percutor: cuál elegir según tu proyecto](/guias/taladro-atornillador-vs-percutor-cual-elegir).
+- Para montarte un taller donde poner en práctica todo esto: [Mesa de carpintería casera: plan + materiales](/proyectos/mesa-carpinteria-casera-plan-materiales), la guía para construir tu propio banco de trabajo.
 
 Y si quieres ver estas dos sierras en acción con madera real, echa un vistazo a nuestra guía de [10 proyectos de madera fáciles para empezar](/proyectos/10-proyectos-madera-faciles-para-empezar), donde muchas de las ideas se pueden hacer solo con una caladora o una circular.
 

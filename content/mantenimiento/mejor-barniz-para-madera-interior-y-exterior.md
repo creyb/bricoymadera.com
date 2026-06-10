@@ -271,7 +271,7 @@ Y si quieres ir un paso más allá, te recomendamos leer nuestra guía sobre [c�
 
 ## ¿Necesitas lijar antes de barnizar? Estas herramientas te vendrán bien
 
-Para preparar la madera correctamente antes de aplicar el barniz, contar con una buena lijadora marca la diferencia. Si todavía no tienes una, echa un vistazo a nuestra guía sobre las [mejores lijadoras para madera](/herramientas/) o, si estás empezando con el bricolaje, nuestra [lista de herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/) te puede servir como punto de partida.
+Para preparar la madera correctamente antes de aplicar el barniz, contar con una buena lijadora marca la diferencia. Si todavía no tienes una, echa un vistazo a nuestra [guía de cómo lijar madera paso a paso](/guias/como-lijar-madera-paso-a-paso/) y, si estás empezando con el bricolaje, nuestra [lista de herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/) te puede servir como punto de partida.
 
 ---
 
@@ -285,3 +285,5 @@ Si has llegado hasta aquí y quieres ir directo al grano, esta es nuestra recome
 - **Para teca y maderas tropicales, acabado natural**: [PROA Teak Oil](https://amzn.to/4o5Hje3) (4 L, ~30 €).
 
 Con cualquiera de los cuatro y un mínimo de cuidado en la preparación, conseguirás un acabado profesional que protegerá tu madera durante años. Y si te ha gustado esta guía y quieres más consejos sobre acabado y mantenimiento, no te pierdas la [categoría de Mantenimiento](/mantenimiento/) donde vamos a seguir publicando guías prácticas.
+
+Si te ha picado el gusanillo y quieres pasar de proteger a construir, mira nuestro [plan para hacer una mesa de carpintería casera](/proyectos/mesa-carpinteria-casera-plan-materiales/) o lánzate directamente con uno de los [10 proyectos de madera fáciles para empezar desde cero](/proyectos/10-proyectos-madera-faciles-para-empezar/).

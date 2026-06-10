@@ -46,7 +46,7 @@ La mayoría de estos proyectos solo requieren un conjunto básico de herramienta
 ### Herramientas imprescindibles
 
 - **Taladro inalámbrico** — Para taladrar y atornillar. Si buscas uno bueno y barato, consulta nuestros [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/).
-- **Sierra manual o circular** — Para cortar piezas. Si prefieres una sierra circular, mira nuestra guía de [sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar/).
+- **Sierra manual o circular** — Para cortar piezas. Si prefieres una sierra circular, mira nuestra guía de [sierra circular para principiantes](/herramientas/sierra-circular-principiantes-que-comprar/). Si dudas entre circular y caladora, echa un vistazo a nuestra [comparativa de sierra circular vs sierra de calar](/guias/sierra-circular-vs-sierra-de-calar-cual-elegir/).
 - **Lijadora orbital** — Para acabados suaves. Aprende a usarla en nuestro tutorial de [cómo lijar madera paso a paso](/guias/como-lijar-madera-paso-a-paso/).
 - **Tupíes y prensas** — Para mantener las piezas firmes mientras trabajas.
 - **Metro, lápiz y escuadra** — Para marcar y medir con precisión.
@@ -195,6 +195,8 @@ Las jardineras de madera dan un toque rústico y natural a tu terraza o jardín.
 **Dificultad:** Media | **Tiempo:** 4-5 horas | **Coste:** 25-40€
 
 Una mesa de trabajo propia es de los proyectos más útiles que puedes hacer. Te dará un espacio dedicado para todos tus futuros proyectos.
+
+> Si quieres una versión más completa y robusta, con prensa de frente y herrajes profesionales, mira nuestro [plan detallado para construir una mesa de carpintería casera](/proyectos/mesa-carpinteria-casera-plan-materiales/).
 
 ### Materiales
 

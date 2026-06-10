@@ -198,6 +198,8 @@ Si ya tienes estas protecciones, echa un vistazo a nuestra guía de [herramienta
 
 Si acabas de empezar en el bricolaje, también te puede interesar nuestra review de los [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/) para complementar tu taller.
 
+Y si tienes dudas entre comprar la circular o una caladora, tenemos una [comparativa de sierra circular vs sierra de calar](/guias/sierra-circular-vs-sierra-de-calar-cual-elegir/) que te aclara las diferencias.
+
 ---
 
 ## ¿Cuál Compro?

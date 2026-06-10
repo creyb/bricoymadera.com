@@ -22,7 +22,7 @@ faq:
 
 Si te has iniciado en la carpintería, tarde o temprano necesitas una superficie resistente donde trabajar. Las mesas industriales cuestan entre 300€ y 1.000€, pero con un poco de maña puedes construirte una tú mismo por una fracción de ese precio. En esta guía te explico cómo hacer una **mesa de carpintería casera** desde cero: el plan, los materiales y los pasos básicos.
 
-Una buena mesa de trabajo no es solo un mueble: es la pieza central de tu taller, te acompaña durante años y marca la diferencia entre un proyecto frustrante y uno que disfrutas. Si todavía no tienes herramientas, echa un vistazo a nuestra guía de [herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/) y a los [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/).
+Un [banco de carpintero](https://es.wikipedia.org/wiki/Banco_de_carpintero) bien dimensionado es la pieza central de cualquier taller que se precie: aparte de soportar el peso de las herramientas y la pieza, su altura y la posición de las prensas determinan la ergonomía de todo tu trabajo. Te acompañará durante años y marcará la diferencia entre un proyecto frustrante y uno que disfrutas. Si todavía no tienes herramientas, echa un vistazo a nuestra guía de [herramientas básicas de carpintería](/herramientas/herramientas-basicas-carpinteria/) y a los [mejores taladros inalámbricos baratos](/herramientas/mejores-taladros-inalambricos-baratos/).
 
 ![Mesa de carpintería casera de madera maciza con herramientas encima](/images/mesa-carpinteria-casera-hero.webp "Mesa de carpintería casera lista para usar")
 
@@ -114,6 +114,8 @@ Es el paso más técnico. La prensa se fija al tablero mediante una mordaza que 
 ### 7. Lija y aplica el acabado
 
 Lija toda la mesa con grano 120 y termina con 220. Aplica un acabado protector: aceite de linaza, aceite de tung o [barniz para madera de interior](/mantenimiento/mejor-barniz-para-madera-interior-y-exterior/) según el uso que le vayas a dar.
+
+> Antes de empezar a usar la mesa, conviene tener presentes unas mínimas [medidas de seguridad en el manejo de herramientas de carpintería](https://www.insst.es/materias/riesgos/riesgos-fisicos): gafas, guantes para manipular piezas, y cuidado con las prensas para no pillarte los dedos.
 
 ---
 
