@@ -9,7 +9,7 @@
     {{ with .Params.tags }}
       <div style="margin-bottom: 0.5rem;">
         {{ range . }}
-          <span style="display: inline-block; font-size: 0.7rem; font-weight: 600; color: #C17F24; background: rgba(193,127,36,0.1); padding: 0.2rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em; margin-right: 0.35rem;">{{ . }}</span>
+          <a href="{{ printf "/tags/%s/" (. | urlize) }}" style="display: inline-block; font-size: 0.7rem; font-weight: 600; color: #C17F24; background: rgba(193,127,36,0.1); padding: 0.2rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em; margin-right: 0.35rem; text-decoration: none; transition: background 0.2s, color 0.2s;" onmouseover="this.style.background='rgba(193,127,36,0.2)';this.style.color='#a86b1d'" onmouseout="this.style.background='rgba(193,127,36,0.1)';this.style.color='#C17F24'">{{ . }}</a>
         {{ end }}
       </div>
     {{ end }}
