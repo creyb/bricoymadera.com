@@ -225,10 +225,10 @@ Mi recomendación para empezar: Bosch gama verde o Makita. Para ingletadoras y m
 
 ### Sierras circulares
 
-- 50-70€: [Bosch PKS 16 Multi (60€)](https://amzn.to/3SJEH8p) — la opción más fiable de la gama básica.
-- 70-100€: [Einhell TC-CS 1400 (85€)](https://amzn.to/4n6GkSA) — 1400W, buena precisión.
-- 100-150€: [DekenPro / 1500W](https://amzn.to/3PqRVwJ) — más potencia.
-- 150-250€: [Makita 5007MG (160€)](https://amzn.to/4n5VCSc) — gama profesional.
+- 50-80€: [Enventor 1500W (70€)](https://www.amazon.es/dp/B09S5KRG53?tag=bricomadera-21) — máxima potencia por menos dinero.
+- 80-100€: [Einhell TC-CS 1410 (90€)](https://www.amazon.es/dp/B08LQG8GGF?tag=bricomadera-21) — 1410W con marca fiable.
+- 100-130€: [Bosch PKS 55 A (115€)](https://www.amazon.es/dp/B002EX2Y6E?tag=bricomadera-21) — 1200W de Bosch.
+- 130-250€: [Makita HS7611 (154€)](https://www.amazon.es/dp/B079JGVY8T?tag=bricomadera-21) — calidad profesional Makita.
 
 ### Caladoras
 

@@ -219,7 +219,7 @@ Sin estos accesorios, las herramientas anteriores no sirven de mucho.
 
 Si prefieres comprar un pack de herramientas en lugar de ir pieza a pieza, existen kits de inicio que incluyen varias de estas herramientas. Suelen ser más económicos que comprar por separado, aunque la calidad individual de cada herramienta puede ser inferior.
 
-{{< amazon url="https://amzn.to/4v23h3Z" text="Ver kits de herramientas para carpintería" >}}
+{{< amazon url="https://www.amazon.es/dp/B0BQB4MKD5?tag=bricomadera-21" text="Ver kit de herramientas DEKO 126 piezas" >}}
 
 ---
 

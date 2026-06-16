@@ -223,7 +223,7 @@ Si quieres ir directo a un modelo concreto:
 - **40-60€**: [DCA ADJZ2035 (20V, ~40€)](https://amzn.to/4wy9hD1) o [Cecotec PowerForce 1620 (16V, ~40€)](https://amzn.to/497mmcm) si quieres 2 baterías.
 - **60-90€**: [HYCHIKA 18V Percutor (60€)](https://amzn.to/3PsrWPJ) — **la mejor elección calidad-precio**, 18V, percutor, 55 accesorios.
 - **80-100€**: [BLACK+DECKER BCD702C1 (20V, 58€)](https://amzn.to/3Red5Jo) si prefieres marca reconocida con buen servicio.
-- **100-150€**: [DCA ADJZ2055i Brushless (61€)](https://amzn.to/43cy4Pr) o [Makita DDF453 (130€)](https://amzn.to/makita-ddf453) para brushless profesional.
+- **100-150€**: [DCA ADJZ2055i Brushless (61€)](https://amzn.to/43cy4Pr) o [Makita DDF453Z (72€)](https://www.amazon.es/dp/B00JQE7OGO?tag=bricomadera-21) para brushless profesional.
 
 Análisis completo con comparativa, pros, contras y para quién es cada uno: [los 5 mejores taladros inalámbricos baratos en 2026](/herramientas/mejores-taladros-inalambricos-baratos/).
 
