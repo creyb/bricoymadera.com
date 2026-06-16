@@ -12,6 +12,7 @@ buildFuture = false
   pagerSize = 10
 
 [taxonomies]
+  category = "categories"
   tag = "tags"
 
 [permalinks]

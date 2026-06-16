@@ -4,9 +4,20 @@ date: 2026-05-19T11:00:00+02:00
 draft: false
 description: "Aprende a lijar madera como un profesional. Guía paso a paso con técnicas de lijado a mano, con lijadora orbital y con taladro. Incluye tabla de granos, errores comunes y consejos prácticos."
 tags: ["lijar madera", "acabado madera", "lijadora", "bricolaje", "paso a paso"]
-categories: ["Proyectos"]
+categories: ["Guías"]
 featured_image: "/images/como-lijar-madera-hero.webp"
 toc: true
+howto:
+  - name: "Prepara la superficie"
+    text: "Limpia polvo, grasa y suciedad con un paño húmedo. Retira tornillos y herrajes, o tápalos con cinta de carrocero. Repara grietas grandes con masilla para madera y deja secar. Trabaja siempre en un lugar ventilado."
+  - name: "Lijado a mano"
+    text: "Envuelve la lija en un bloque (mejor de corcho que de madera) para mantener la superficie plana. Lija siempre en dirección de la veta, sin presionar demasiado. Sigue la progresión de grano 80 → 120 → 220. Revisa con la mano enguantada después de cada paso."
+  - name: "Lijado con lijadora orbital"
+    text: "Enciende la máquina antes de tocar la madera. Deja que el peso de la lijadora haga el trabajo, sin presionar. Haz trayectorias superpuestas de unos 5 cm sin detenerte. Vacía el depósito de polvo regularmente. Pasa los tres granos (80, 120 y 220) en el mismo orden."
+  - name: "Lijado con taladro y disco lijador"
+    text: "Acopla un disco lijador con mandril al taladro. Trabaja a baja velocidad para no quemar la madera, sin presionar y con movimientos pequeños. Es una solución válida para superficies pequeñas, aunque menos precisa que una lijadora orbital dedicada."
+  - name: "Limpia el polvo y aplica el acabado"
+    text: "Aspira primero el grueso del polvo con una aspiradora con boquilla de cepillo. Pasa después un paño ligeramente humedecido para retirar las partículas finas. Deja secar al menos 30 minutos. Si queda alguna imperfección, repasa con lija de grano 320 antes de barnizar, pintar o aceitar."
 faq:
   - q: "¿Cuánto tiempo se tarda en lijar una tabla de madera?"
     a: "Depende del tamaño y del estado de la madera. Una tabla estándar de 1 metro tarda unos 10-15 minutos en lijarse con lijadora orbital y unos 30-40 minutos a mano. Si la madera tiene barniz viejo o imperfecciones profundas, puede doblarse el tiempo."

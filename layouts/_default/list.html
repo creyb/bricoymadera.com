@@ -1,5 +1,8 @@
 {{ define "main" }}
   <section style="max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem 3rem;">
+    {{ with .Content }}
+      <div class="section-intro" style="margin-bottom: 2.5rem; padding: 0 0.5rem;">{{ . }}</div>
+    {{ end }}
     {{ $pages := .Pages }}
     {{ if $pages }}
       <div style="display: grid; gap: 1.5rem;">

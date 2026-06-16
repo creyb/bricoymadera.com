@@ -5,7 +5,7 @@
   "@type": "HowTo",
   "name": "{{ .Title | transform.HTMLEscape }}",
   "description": "{{ .Description | transform.HTMLEscape }}",
-  "image": "{{ with .Params.image }}{{ . | transform.HTMLEscape }}{{ else }}{{ printf "%simages/hero-workshop-bg.webp" .Site.BaseURL | transform.HTMLEscape }}{{ end }}",
+  "image": "{{ with .Params.featured_image }}{{ . | transform.HTMLEscape }}{{ else }}{{ printf "%simages/hero-workshop-bg.webp" .Site.BaseURL | transform.HTMLEscape }}{{ end }}",
   "totalTime": "{{ .Params.totalTime | default "PT30M" | transform.HTMLEscape }}",
   "step": [
     {{- $steps := .Params.howto }}

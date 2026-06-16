@@ -4,7 +4,7 @@ date: 2026-05-30T12:00:00+02:00
 draft: false
 description: "¿No sabes si comprar un taladro atornillador o uno percutor? Te explicamos las diferencias reales, para qué sirve cada uno y cuál te conviene según el tipo de trabajos que hagas."
 tags: ["taladro atornillador", "taladro percutor", "diferencias taladros", "guía de compra", "herramientas eléctricas"]
-categories: ["Guias"]
+categories: ["Guías"]
 featured_image: "/images/taladro-atornillador-vs-percutor-hero.webp"
 toc: true
 faq:

@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+    {{ with .Content }}
+      <div class="tag-intro" style="margin-bottom: 2.5rem;">{{ . }}</div>
+    {{ end }}
+  </article>
+  <section style="max-width: 900px; margin: 0 auto; padding: 0 1.5rem 3rem;">
+    <h2 style="font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 600; color: #3D2B1F; margin: 0 0 1.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(193,127,36,0.3);">Artículos en este tag</h2>
+    <div style="display: grid; gap: 1.5rem;">
+      {{ range .Pages }}
+        {{ printf "<!-- %s -->" .Title | safeHTML }}
+        <article style="background: #fff; border: 1px solid rgba(61,43,31,0.08); border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(61,43,31,0.06); transition: box-shadow 0.2s, transform 0.1s;" onmouseover="this.style.boxShadow='0 4px 16px rgba(61,43,31,0.12)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 2px 8px rgba(61,43,31,0.06)';this.style.transform='translateY(0)'">
+          {{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
+          {{ if $featured_image }}
+            <a href="{{ .RelPermalink }}" style="display: block; text-decoration: none;">
+              <img src="{{ $featured_image }}" alt="{{ .Title }}" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy">
+            </a>
+          {{ end }}
+          <div style="padding: 1.5rem;">
+            <h3 style="font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 600; color: #3D2B1F; margin: 0 0 0.5rem;">
+              <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#C17F24'" onmouseout="this.style.color='#3D2B1F'">{{ .Title }}</a>
+            </h3>
+            {{ with .Params.description }}
+              <p style="font-size: 0.9rem; color: #5a4a3a; line-height: 1.6; margin: 0 0 1rem;">{{ . }}</p>
+            {{ end }}
+            <a href="{{ .RelPermalink }}" style="display: inline-block; font-size: 0.85rem; font-weight: 600; color: #C17F24; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#a86b1d'" onmouseout="this.style.color='#C17F24'">Leer más →</a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

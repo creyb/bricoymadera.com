@@ -4,7 +4,7 @@ date: 2026-06-10T09:00:00+02:00
 draft: false
 description: "¿No sabes si comprar una sierra circular o una sierra de calar? Comparamos ambas herramientas: para qué sirve cada una, sus diferencias, qué cortes hace cada una y cuándo conviene una sobre la otra."
 tags: ["sierra circular", "sierra de calar", "caladora", "herramientas eléctricas", "guía de compra", "comparativa"]
-categories: ["Guias"]
+categories: ["Guías"]
 featured_image: "/images/sierra-circular-cortar-hero.webp"
 toc: true
 faq:

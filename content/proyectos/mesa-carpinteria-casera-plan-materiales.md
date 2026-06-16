@@ -7,6 +7,21 @@ tags: ["mesa de carpintería", "banco de trabajo", "carpintería", "bricolaje", 
 categories: ["Proyectos"]
 featured_image: /images/mesa-carpinteria-casera-hero.webp
 toc: true
+howto:
+  - name: "Corta todas las piezas"
+    text: "Corta el tablero, las 4 patas, los 2 largueros laterales y los 2 travesaños. Mide dos veces y corta una. Para cortes rectos y precisos en tableros grandes, usa una sierra circular con guía."
+  - name: "Prepara el tablero superior"
+    text: "Si encolas varias tablas para formar el tablero, hazlo antes de unirlo a la estructura. Usa prensas, deja secar 24 horas y lija en progresión de grano 80, 120 y 220."
+  - name: "Monta la estructura"
+    text: "Une las patas a los largueros formando un rectángulo. Aplica pegamento D3/D4 en las uniones, taladra agujeros guía para evitar que la madera se raje y atornilla con tirafondos largos. Refuerza cada unión con una escuadra metálica por dentro."
+  - name: "Fija el tablero a la estructura"
+    text: "Coloca el tablero sobre la estructura y atorníllalo desde abajo con tornillos de 60 mm. Avellana los tornillos y tápalos con tacos de madera si no quieres que se vean. Asegúrate de que el tablero queda plano y sin movimientos."
+  - name: "Añade el estante inferior"
+    text: "Atornilla las tablas del estante a los travesaños dejando 1-2 cm de separación entre ellas para que el aire circule y evitar que la humedad deforme la madera."
+  - name: "Instala la prensa de frente"
+    text: "Perfora un agujero pasante en el tablero, inserta la guía de la prensa y atornilla la mordaza por debajo del tablero. Comprueba que abra y cierre con suavidad antes de usarla."
+  - name: "Lija y aplica el acabado"
+    text: "Lija toda la mesa con grano 120 y termina con 220. Aplica un acabado protector: aceite de linaza, aceite de tung o barniz poliuretano según el uso que le vayas a dar. Deja secar 24 horas entre capas."
 faq:
   - q: "¿Cuánto cuesta hacer una mesa de carpintería casera?"
     a: "Con materiales estándar (pino y herrajes básicos) puedes tener una mesa funcional por 80-150€. Si optas por madera de haya o roble y una prensa de calidad, el coste sube a 200-300€. Sigue siendo la mitad o la tercera parte de una mesa industrial equivalente."
