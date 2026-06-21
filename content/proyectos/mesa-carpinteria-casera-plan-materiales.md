@@ -4,7 +4,6 @@ date: 2026-06-06T10:00:00+02:00
 draft: false
 description: "Aprende a construir tu propia mesa de carpintería casera paso a paso: plan detallado con medidas, lista de materiales, herramientas necesarias y consejos para principiantes."
 tags: ["mesa de carpintería", "banco de trabajo", "carpintería", "bricolaje", "taller en casa", "proyectos madera"]
-categories: ["Proyectos"]
 featured_image: /images/mesa-carpinteria-casera-hero.webp
 toc: true
 howto:

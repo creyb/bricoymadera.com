@@ -5,7 +5,6 @@ draft: false
 slug: "sierra-de-mesa-vs-sierra-circular-cual-comprar"
 description: "Sierra de mesa vs sierra circular de mano: comparativa completa con pros, contras, precios y recomendaciones. Cuál necesitas según tu taller, espacio, presupuesto y tipo de proyectos."
 tags: ["sierra de mesa", "sierra circular", "comparativa", "taller", "bricolaje", "herramientas eléctricas"]
-categories: ["Guías"]
 featured_image: "/images/sierra-de-mesa-vs-sierra-circular-cual-comprar-hero.webp"
 toc: true
 faq:

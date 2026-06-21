@@ -4,7 +4,6 @@ date: 2026-05-11T12:00:00+02:00
 draft: false
 description: "Descubre las herramientas esenciales para empezar en carpintería sin gastar de más. Guía completa con herramientas manuales, eléctricas y accesorios para principiantes."
 tags: ["herramientas", "principiantes", "guía de compra"]
-categories: ["Herramientas"]
 featured_image: "/images/herramientas-carpinteria-principiantes-hero.webp"
 faq:
   - q: "¿Cuánto dinero necesito para empezar en carpintería?"

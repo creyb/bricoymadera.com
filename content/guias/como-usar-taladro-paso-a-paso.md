@@ -5,7 +5,6 @@ draft: false
 slug: "como-usar-taladro-paso-a-paso"
 description: "Aprende a usar un taladro paso a paso: cómo elegir la broca, marcar la pieza, configurar velocidad y par, y taladrar sin romper la broca ni astillar la madera. Tutorial para principiantes."
 tags: ["taladro", "como usar taladro", "bricolaje", "principiantes", "paso a paso", "herramientas eléctricas"]
-categories: ["Guías"]
 featured_image: "/images/como-usar-taladro-paso-a-paso-hero.webp"
 toc: true
 howto:

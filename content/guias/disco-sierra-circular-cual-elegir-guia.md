@@ -5,7 +5,6 @@ draft: false
 slug: "disco-sierra-circular-cual-elegir-guia"
 description: "Guía completa de discos para sierra circular: tipos según dientes (24, 40, 60+), materiales (madera, melamina, metal, plástico), marcas y cómo elegir el mejor disco para cada trabajo."
 tags: ["sierra circular", "disco sierra circular", "disco para sierra", "melamina", "bricolaje", "herramientas eléctricas"]
-categories: ["Guías"]
 featured_image: "/images/disco-sierra-circular-cual-elegir-guia-hero.webp"
 toc: true
 faq:

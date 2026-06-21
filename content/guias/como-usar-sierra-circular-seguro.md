@@ -5,7 +5,6 @@ draft: false
 slug: "como-usar-sierra-circular-seguro"
 description: "Aprende a usar la sierra circular de forma segura paso a paso: preparación, elección de disco, técnica de corte, errores comunes y precauciones. Tutorial con fotos para principiantes."
 tags: ["sierra circular", "como usar sierra circular", "seguridad", "bricolaje", "principiantes", "paso a paso", "herramientas eléctricas"]
-categories: ["Guías"]
 featured_image: "/images/como-usar-sierra-circular-seguro-hero.webp"
 toc: true
 howto:

@@ -5,7 +5,6 @@ draft: false
 slug: "taladros"
 description: "Guía completa de taladros: tipos (atornillador, percutor, con cable, de impacto), voltajes (12V, 18V, 20V), comparativas clave y cómo elegir el taladro adecuado para tu proyecto."
 tags: ["taladros", "herramientas eléctricas", "guía de compra", "principiantes", "bricolaje", "tipos de taladros"]
-categories: ["Herramientas"]
 featured_image: "/images/taladros-guia-completa-hero.webp"
 toc: true
 faq:

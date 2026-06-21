@@ -4,7 +4,6 @@ date: 2026-05-19T11:00:00+02:00
 draft: false
 description: "Aprende a lijar madera como un profesional. Guía paso a paso con técnicas de lijado a mano, con lijadora orbital y con taladro. Incluye tabla de granos, errores comunes y consejos prácticos."
 tags: ["lijar madera", "acabado madera", "lijadora", "bricolaje", "paso a paso"]
-categories: ["Guías"]
 featured_image: "/images/como-lijar-madera-hero.webp"
 toc: true
 howto:

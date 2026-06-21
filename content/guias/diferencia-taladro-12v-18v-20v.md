@@ -5,7 +5,6 @@ draft: false
 slug: "diferencia-taladro-12v-18v-20v"
 description: "Diferencia entre taladro de 12V, 18V y 20V: cuál necesitas según tu proyecto. Tabla comparativa, autonomía, potencia, peso y recomendaciones por uso. Aclaramos el mito del 18V vs 20V."
 tags: ["taladro", "voltaje taladro", "12v 18v 20v", "bricolaje", "principiantes", "herramientas eléctricas"]
-categories: ["Guías"]
 featured_image: "/images/diferencia-taladro-12v-18v-20v-hero.webp"
 toc: true
 faq:

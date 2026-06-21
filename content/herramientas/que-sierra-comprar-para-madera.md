@@ -5,7 +5,6 @@ draft: false
 slug: "que-sierra-comprar-para-madera"
 description: "Qué sierra comprar para madera: comparativa de sierras circulares, caladoras, ingletadoras y de mesa por presupuesto. Tabla de decisión, modelos recomendados y para quién es cada uno."
 tags: ["sierra circular", "caladora", "ingletadora", "sierra de mesa", "guía de compra", "bricolaje", "herramientas eléctricas"]
-categories: ["Herramientas"]
 featured_image: "/images/que-sierra-comprar-para-madera-hero.webp"
 toc: true
 faq:

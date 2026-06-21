@@ -4,7 +4,6 @@ date: 2026-05-23T10:00:00+02:00
 draft: false
 description: "Descubre cuál es la mejor sierra circular para principiantes. Guía completa con los 5 mejores modelos baratos, qué mirar antes de comprar y consejos de uso."
 tags: ["sierra circular", "herramientas eléctricas", "bricolaje", "guía de compra"]
-categories: ["Herramientas"]
 featured_image: "/images/sierra-circular-principiantes-hero.webp"
 toc: true
 faq:

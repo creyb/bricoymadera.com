@@ -5,7 +5,6 @@ draft: false
 slug: "que-taladro-comprar-para-casa"
 description: "Qué taladro comprar para casa si eres principiante: atornillador, percutor, con cable o a batería. Tabla de decisión por tipo de trabajo, presupuesto y frecuencia de uso. Recomendaciones concretas."
 tags: ["taladro", "que taladro comprar", "principiantes", "guía de compra", "bricolaje", "herramientas eléctricas", "taladro para casa"]
-categories: ["Herramientas"]
 featured_image: "/images/que-taladro-comprar-para-casa-hero.webp"
 toc: true
 faq:

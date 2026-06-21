@@ -4,7 +4,6 @@ date: 2026-05-26T10:00:00+02:00
 draft: false
 description: "Descubre 10 proyectos de madera fáciles que puedes hacer en casa con herramientas básicas. Desde estanterías hasta mesas, ideal para principiantes en carpintería."
 tags: ["proyectos madera", "bricolaje", "carpintería principiantes", "proyectos fáciles"]
-categories: ["Proyectos"]
 featured_image: /images/proyectos-madera-faciles-hero.webp
 toc: true
 faq:

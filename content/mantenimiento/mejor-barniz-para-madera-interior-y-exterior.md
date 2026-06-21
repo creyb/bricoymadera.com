@@ -4,7 +4,6 @@ date: 2026-06-03T19:45:00+02:00
 draft: false
 description: "Comparativa de los mejores barnices para madera de 2026: interior, exterior, mate, satinado y brillante. Tipos, aplicación paso a paso y los 4 barnices más recomendados en Amazon España."
 tags: ["barniz madera", "barniz para madera", "barniz exterior", "mantenimiento madera", "acabados madera"]
-categories: ["Mantenimiento"]
 featured_image: "/images/barniz-madera-hero.webp"
 toc: true
 faq:

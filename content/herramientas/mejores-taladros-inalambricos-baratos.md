@@ -4,7 +4,6 @@ date: 2026-05-16T10:00:00+02:00
 draft: false
 description: "Descubre los 5 mejores taladros inalámbricos baratos para principiantes. Comparativa completa con precios, características y consejos para elegir el mejor taladro sin gastar de más."
 tags: ["taladro inalámbrico", "herramientas eléctricas", "bricolaje", "guía de compra"]
-categories: ["Herramientas"]
 featured_image: "/images/mejores-taladros-inalambricos-baratos-hero.webp"
 toc: true
 faq:

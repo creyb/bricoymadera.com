@@ -5,7 +5,6 @@ draft: false
 slug: "sierras"
 description: "Guía completa de sierras para madera: circular, caladora, ingletadora, de mesa. Comparativas, discos según material, cómo elegir la mejor sierra para tu proyecto y recomendaciones por presupuesto."
 tags: ["sierras", "sierra circular", "caladora", "herramientas eléctricas", "guía de compra", "principiantes", "bricolaje"]
-categories: ["Herramientas"]
 featured_image: "/images/sierras-guia-completa-hero.webp"
 toc: true
 faq:

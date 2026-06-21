@@ -1,4 +1,0 @@
----
-title: "Categorías"
-private: true
----
